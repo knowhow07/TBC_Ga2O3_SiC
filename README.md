@@ -15,7 +15,7 @@ Important:
 - VASP-related inputs and outputs and other externally licensed files should still be reviewed against the applicable license terms before public distribution.
 - High-risk VASP-derived output files have been moved to `_REVIEW_BEFORE_PUBLIC_RELEASE/` and should not be included in a public archive unless cleared.
 - Original code and scripts are licensed under Apache-2.0.
-- Original processed data, generated figures, and documentation are licensed under CC BY-NC 4.0 unless otherwise noted.
+- Original processed data, generated figures, and documentation are licensed under CC BY-SA 4.0 unless otherwise noted.
 - See `PUBLIC_RELEASE_CHECKLIST.md` before uploading this repository.
 
 ## Repository Layout
