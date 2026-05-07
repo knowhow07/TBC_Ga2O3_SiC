@@ -1,0 +1,22 @@
+group_id = 4
+folder = <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/300k/shc_g4
+compute_file = <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/300k/shc_g4/compute.out
+shc_file = <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/300k/shc_g4/shc.out
+model_file = <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/300k/shc_g4/model.xyz
+skip_fraction = 0.2
+M = 7
+G_LEFT = 2
+G_RIGHT = 6
+DeltaT_K = 1.296766250000e+01
+Area_A2 = 1.373931352070e+03
+xmin_A = 1.018614569700e+02
+xmax_A = 1.103924502100e+02
+xmean_A = 1.058211639343e+02
+Steady_state_group_temperatures_K:
+g1 = 2.984936125000e+02
+g2 = 3.098686531250e+02
+g3 = 3.029735187500e+02
+g4 = 3.080717968750e+02
+g5 = 3.057201062500e+02
+g6 = 2.969009906250e+02
+g7 = 2.901103968750e+02

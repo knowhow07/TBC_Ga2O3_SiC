@@ -1,0 +1,6 @@
+SHC_GROUPS = 4 5
+=== Running GPUMD for group 4 in shc_g4 ===
+OK: group 4 finished. Outputs in shc_g4/
+=== Running GPUMD for group 5 in shc_g5 ===
+OK: group 5 finished. Outputs in shc_g5/
+All groups (3,4,5) finished.

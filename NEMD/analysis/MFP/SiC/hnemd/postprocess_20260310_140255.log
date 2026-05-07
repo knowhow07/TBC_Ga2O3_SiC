@@ -1,0 +1,3 @@
+Found 4 kappa.out files under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/job_*.
+Found 2 shc.out files under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/job_*.
+Warning: number of kappa.out and shc.out files differs. Proceeding separately.

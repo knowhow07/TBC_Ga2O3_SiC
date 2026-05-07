@@ -1,0 +1,18 @@
+Found 2 kappa.out files under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/job_*.
+Found 2 shc.out files under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/job_*.
+Averaged running kappa over 2 runs.
+Averaged spectral kappa over 2 runs.
+Averaging window [last 100.00 ps]: 4900.00 – 5000.00 ps (101 points)
+k_z: mean =  136.459 W/mK, std =   11.355, stderr =    8.029
+Saved plateau statistics to: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/kappa_plateau_stats.txt
+Saved averaged kappa curve to: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/kappa_avg_vs_time.txt
+Saved final averaged kappa value to: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/kappa_final_values.txt
+Saved averaged spectral kappa to: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/kappa_spectrum_avg.txt
+Saved spectral kappa with error to: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/kappa_spectrum_avg_with_error.txt
+Spectral integral check: kappa_spec = 0.931 ± 1.509 W/mK
+Running-kappa window mean: kappa_run  = 136.459 ± 8.029 W/mK
+Difference (spec - run) = -135.528 W/mK
+Saved figure: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/hnemd_running_kappa_avg.png
+Saved figure: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/hnemd_spectral_kappa_avg.png
+Saved figure: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/0001/hnemd_cumulative_kappa_avg.png
+Done.

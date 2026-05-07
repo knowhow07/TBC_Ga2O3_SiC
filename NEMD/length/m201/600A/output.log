@@ -1,0 +1,48 @@
+Preparing 8 NEW job directories...
+Existing max job index: 8
+Creating jobs: job_09 .. job_16
+Job directory preparation done.
+Scheduling 8 NEW job directories:
+  job_09
+  job_10
+  job_11
+  job_12
+  job_13
+  job_14
+  job_15
+  job_16
+Launching 8 jobs on GPUs: 3 5
+(Ignoring external GPU usage)
+Launched job_09 on GPU 3 (PID 349494)
+Launched job_10 on GPU 5 (PID 349495)
+GPU 3: starting job_09
+GPU 5: starting job_10
+GPU 5: job_10 finished
+GPU 5: internal job PID 349495 finished.
+Launched job_11 on GPU 5 (PID 717699)
+GPU 5: starting job_11
+GPU 3: job_09 finished
+GPU 3: internal job PID 349494 finished.
+Launched job_12 on GPU 3 (PID 719832)
+GPU 3: starting job_12
+GPU 5: job_11 finished
+GPU 5: internal job PID 717699 finished.
+Launched job_13 on GPU 5 (PID 1082929)
+GPU 5: starting job_13
+GPU 3: job_12 finished
+GPU 3: internal job PID 719832 finished.
+Launched job_14 on GPU 3 (PID 1085152)
+GPU 3: starting job_14
+GPU 5: job_13 finished
+GPU 5: internal job PID 1082929 finished.
+Launched job_15 on GPU 5 (PID 1454741)
+GPU 5: starting job_15
+GPU 3: job_14 finished
+GPU 3: internal job PID 1085152 finished.
+Launched job_16 on GPU 3 (PID 1512207)
+GPU 3: starting job_16
+GPU 5: job_15 finished
+GPU 5: internal job PID 1454741 finished.
+GPU 3: job_16 finished
+GPU 3: internal job PID 1512207 finished.
+All jobs finished.

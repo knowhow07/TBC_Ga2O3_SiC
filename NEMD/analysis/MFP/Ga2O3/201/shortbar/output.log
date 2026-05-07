@@ -1,0 +1,58 @@
+Found 8 job folders.
+
+[INFO] job_01
+       natoms  = 6000
+       nframes = 200000
+       output  = job_01/velocity_f32.h5
+       size txt = 39.10 GB
+       size h5  = 12.48 GB
+
+[INFO] job_02
+       natoms  = 6000
+       nframes = 200000
+       output  = job_02/velocity_f32.h5
+       size txt = 39.10 GB
+       size h5  = 12.48 GB
+
+[INFO] job_03
+       natoms  = 6000
+       nframes = 200000
+       output  = job_03/velocity_f32.h5
+       size txt = 39.10 GB
+       size h5  = 12.48 GB
+
+[INFO] job_04
+       natoms  = 6000
+       nframes = 200000
+       output  = job_04/velocity_f32.h5
+       size txt = 39.10 GB
+       size h5  = 12.48 GB
+
+[INFO] job_05
+       natoms  = 6000
+       nframes = 200000
+       output  = job_05/velocity_f32.h5
+       size txt = 39.10 GB
+       size h5  = 12.48 GB
+
+[INFO] job_06
+       natoms  = 6000
+       nframes = 200000
+       output  = job_06/velocity_f32.h5
+       size txt = 39.10 GB
+       size h5  = 12.48 GB
+
+[INFO] job_07
+       natoms  = 6000
+       nframes = 200000
+       output  = job_07/velocity_f32.h5
+       size txt = 39.10 GB
+       size h5  = 12.48 GB
+
+[INFO] job_08
+       natoms  = 6000
+       nframes = 200000
+       output  = job_08/velocity_f32.h5
+       size txt = 39.10 GB
+       size h5  = 12.48 GB
+

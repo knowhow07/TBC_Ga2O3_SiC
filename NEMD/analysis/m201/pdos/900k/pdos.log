@@ -1,0 +1,9 @@
+<PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/pdos/900k/pdos_extremeleft.py:233: DeprecationWarning: `trapz` is deprecated. Use `trapezoid` instead, or one of the numerical integration functions in `scipy.integrate`.
+  area = np.trapz(dos, freqs_THz)
+Snapshot Lx=203.28868118
+group2 x-range: [52.22, 151.64] Å
+Left  slice: [52.22, 57.22)
+Mid   slice: [102.50, 107.50)
+Right slice: [146.64, 151.64]
+Velocity frames = 50000, dt_sample = 10.0 fs
+[OK] Saved pdos_left_mid_right_5.0_out_extreme.png

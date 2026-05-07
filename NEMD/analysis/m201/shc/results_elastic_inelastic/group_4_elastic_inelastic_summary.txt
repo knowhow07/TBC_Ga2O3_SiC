@@ -1,0 +1,13 @@
+# Elastic / inelastic-sensitive integration summary
+# group_id = 4
+# freq_cut_THz = 18.000000
+# clip_negative = True
+#
+# Definition:
+#   elastic_like         : integral of G_like_smoothed over omega <= cutoff
+#   inelastic_sensitive  : integral of G_like_smoothed over omega > cutoff
+#
+# T_K  I_total  I_elastic_like  I_inelastic_sensitive  frac_elastic_like  frac_inelastic_sensitive
+ 300.0  3.6632351084e+02  3.3576397370e+02  3.0481632643e+01  9.1657773462e-01  8.3209599550e-02
+ 600.0  3.7130465918e+02  3.3382329520e+02  3.7378086525e+01  8.9905495917e-01  1.0066689335e-01
+ 900.0  4.5184122799e+02  3.8602159002e+02  6.5537748120e+01  8.5433016313e-01  1.4504596761e-01

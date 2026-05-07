@@ -1,0 +1,12 @@
+Found 10 hac.out files under <PATH_TO_DATA>/vasp_jobs/nep_0217/emd/Ga2O3/600k/job_*.
+Saved HFACF figure: emd_hfacf_normalized_avg.png
+Saved HFACF running-integral figure: emd_hfacf_running_integral.png
+Averaging window [last 10.00 ps]: 290.00 – 300.00 ps (1001 points)
+kx_tot: mean =    2.214 W/mK, std =    1.627, stderr =    0.514
+ky_tot: mean =    9.223 W/mK, std =    6.041, stderr =    1.910
+kz_tot: mean =    9.058 W/mK, std =    5.137, stderr =    1.625
+k_iso : mean =    6.832 W/mK, std =    3.022, stderr =    0.956
+Saved plateau statistics to: kappa_plateau_stats.txt
+Saved averaged kappa curves to: kappa_avg_vs_time.txt
+Saved final averaged kappa values to: kappa_final_values.txt
+Saved HFACF figure: <PATH_TO_DATA>/vasp_jobs/nep_0217/emd/Ga2O3/600k/emd_hfacf_normalized_avg.png

@@ -1,0 +1,40 @@
+
+=== Logging to logs/bulk_bar_log_20260322_100615.log ===
+
+Loaded structure from: rotated_longx_4+1_Ga2O3.xyz
+Number of atoms: 5760
+Parsed lattice from XYZ header:
+[[66.55725324  0.          0.        ]
+ [ 0.         36.9083298   0.        ]
+ [ 0.          0.         34.66131275]]
+x range: [15.157887, 61.832079]  (Lx = 46.674192 Å)
+Region bounds along x (Å):
+  xmin       : 15.157887
+  fixL_end   : 20.157887   -> end of left fixed (group 0)
+  hot_end    : 30.157887   -> end of hot (group 1)
+  center_beg : 33.494983   -> start of center (group 3)
+  xmid       : 38.494983   -> center of group 3
+  center_end : 43.494983   -> end of center (group 3)
+  cold_beg   : 46.832079   -> start of cold (group 5)
+  fixR_beg   : 56.832079   -> start of right fixed (group 0)
+  xmax       : 61.832079
+
+Group counts:
+  group 0: 1440
+  group 1: 1152
+  group 2: 432
+  group 3: 1224
+  group 4: 288
+  group 5: 1224
+
+Wrote GPUMD model XYZ to: model.xyz
+Wrote group plot PNG to: group_regions.png
+
+✅ model.xyz written successfully.
+Group meaning:
+  0 = fixed ends
+  1 = hot
+  2 = left dump
+  3 = center
+  4 = right dump
+  5 = cold

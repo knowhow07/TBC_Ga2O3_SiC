@@ -1,0 +1,116 @@
+[LOG] Writing to <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_20260408_204700.log
+Found 8 job folders under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/job_*
+
+[job_01]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.132128
+  g3: 303.219775
+  g4: 300.136451
+  g5: 297.066532
+DeltaT = <Tg2> - <Tg4> = 8.995677 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_02]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.103331
+  g3: 303.144415
+  g4: 300.207131
+  g5: 297.261102
+DeltaT = <Tg2> - <Tg4> = 8.896200 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_03]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.116269
+  g3: 303.126522
+  g4: 300.123554
+  g5: 296.832305
+DeltaT = <Tg2> - <Tg4> = 8.992715 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_04]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.138770
+  g3: 303.383930
+  g4: 300.160080
+  g5: 297.209658
+DeltaT = <Tg2> - <Tg4> = 8.978690 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_05]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.133196
+  g3: 303.084046
+  g4: 299.630682
+  g5: 296.802369
+DeltaT = <Tg2> - <Tg4> = 9.502513 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_06]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.143378
+  g3: 303.180131
+  g4: 299.809897
+  g5: 296.774662
+DeltaT = <Tg2> - <Tg4> = 9.333481 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_07]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.121794
+  g3: 303.216141
+  g4: 299.809674
+  g5: 297.087106
+DeltaT = <Tg2> - <Tg4> = 9.312120 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_08]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.160460
+  g3: 303.556691
+  g4: 300.188867
+  g5: 296.926513
+DeltaT = <Tg2> - <Tg4> = 8.971593 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+================ Summary ================
+Valid jobs used: 8
+Mean ΔT over jobs: 9.122874 K
+Std  ΔT over jobs: 0.224395 K
+Mean area over jobs: 1376.341505 Å^2
+SHC region x-ranges:
+  job_01: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_02: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_03: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_04: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_05: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_06: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_07: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_08: 20.141 -> 28.324 Å (center ~ 24.235)
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_avg_native.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_avg_paper.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_cumulative_native.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_cumulative_paper.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_all_runs_native.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_summary.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Jarea_avg.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_avg_native.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_avg_paper.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_cumulative_native.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/SiC/shortbar/bulk_SiC_shortbar_Gomega_cumulative_paper.png

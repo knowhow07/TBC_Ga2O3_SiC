@@ -1,0 +1,39 @@
+[INFO] Current path   : <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc
+[INFO] Results folder : <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/results_length
+[INFO] Temperature paths:
+  300K -> <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/fix
+  600K -> <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/600k
+  900K -> <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/900k
+
+===== Processing group 3 across temperatures =====
+[OK] g3 300K: dT=12.758519 K, area=1279.291162 Å², x=(51.184,59.367)
+[OK] g3 600K: dT=12.066208 K, area=1279.291162 Å², x=(51.184,59.367)
+[OK] g3 900K: dT=12.058643 K, area=1279.291162 Å², x=(51.184,59.367)
+
+===== Processing group 4 across temperatures =====
+[OK] g4 300K: dT=13.341644 K, area=1279.291162 Å², x=(91.466,100.425)
+[OK] g4 600K: dT=12.958645 K, area=1279.291162 Å², x=(91.466,100.425)
+[OK] g4 900K: dT=11.891097 K, area=1279.291162 Å², x=(91.466,100.425)
+
+===== Processing group 5 across temperatures =====
+[OK] g5 300K: dT=12.845331 K, area=1279.291162 Å², x=(139.182,148.137)
+<PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/spec_temp.py:208: UserWarning: [600K] Missing file: 600k/shc_g5/compute.out
+  warnings.warn(f"[{temp_label}] Missing file: {f}")
+<PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/spec_temp.py:208: UserWarning: [900K] Missing file: 900k/shc_g5/shc.out
+  warnings.warn(f"[{temp_label}] Missing file: {f}")
+
+Saved figures:
+  group_3_Jsum_vs_temperature.png
+  group_3_Glike_vs_temperature.png
+  group_3_GlikeCum_vs_temperature.png
+  group_4_Jsum_vs_temperature.png
+  group_4_Glike_vs_temperature.png
+  group_4_GlikeCum_vs_temperature.png
+  group_5_Jsum_vs_temperature.png
+  group_5_Glike_vs_temperature.png
+  group_5_GlikeCum_vs_temperature.png
+
+Saved text outputs:
+  summary_by_group_and_temperature.txt
+  group_<gid>_<temp>_spectral_data.txt
+  log: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/results_length/compare_temp_by_group_20260406_112739.log

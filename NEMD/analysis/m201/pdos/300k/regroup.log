@@ -1,0 +1,25 @@
+Loaded 25440 atoms from ./model_original.xyz
+Box Lx (from Lattice) = 203.289 Å
+Detected interface by species change along x
+  last Si x   = 104.998 Å
+  first O x   = 106.698 Å
+  interface x = 105.848 Å
+Requested widths: left=30.000, interface=100.000, right=30.000 (Å)
+WALL_THICK_BASE=10.000 Å each end -> min_needed=180.000 Å
+
+✔ Wrote regrouped PDOS model to: ./model.xyz
+
+Group counts:
+  group  0: 4584
+  group  1: 4032
+  group  2: 13104
+  group  3: 3720
+
+Region bounds along x (Å):
+         wallL: 0.000 -> 21.644
+       g1_left: 21.644 -> 51.644
+  g2_interface: 51.644 -> 151.644
+      g3_right: 151.644 -> 181.644
+         wallR: 181.644 -> 203.289
+
+✔ Saved plot: ./group_ranges_x.png

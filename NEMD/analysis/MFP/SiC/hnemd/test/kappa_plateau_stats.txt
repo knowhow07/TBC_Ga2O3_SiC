@@ -1,0 +1,3 @@
+# Averaging window (ps): 4980.000000  5000.000000
+# name    mean(W/mK)      std(W/mK)       stderr(W/mK)
+k_y          116.003859      80.913046      57.214164

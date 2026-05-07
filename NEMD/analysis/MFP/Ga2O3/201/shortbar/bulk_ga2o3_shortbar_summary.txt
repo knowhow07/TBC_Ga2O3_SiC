@@ -1,0 +1,7 @@
+n_jobs_used = 8
+G_LEFT = 2
+G_RIGHT = 4
+SHC_GROUP_ID = 3
+mean_dT_K = 9.4868416688
+std_dT_K = 0.1986191909
+mean_area_A2 = 1376.3415047621

@@ -1,0 +1,60 @@
+[LOG] Writing to <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/600k/results/spec_thermal_multi_20260409_112838.log
+[INFO] Root directory: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/600k
+[INFO] Results directory: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/600k/results
+[INFO] Groups to process: [3, 4, 5]
+
+===== Processing group 3 in <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/600k/shc_g3 =====
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 609.898305
+  g3: 602.630240
+  g4: 608.014638
+  g5: 607.122245
+  g6: 597.832097
+  g7: 590.099772
+DeltaT = <Tg2> - <Tg6> = 12.066208 K
+
+===== Processing group 4 in <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/600k/shc_g4 =====
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 609.964788
+  g3: 602.328287
+  g4: 608.736660
+  g5: 606.830398
+  g6: 597.006142
+  g7: 590.147630
+DeltaT = <Tg2> - <Tg6> = 12.958645 K
+
+===== Processing group 5 in <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/100-300k/9/shc/600k/shc_g5 =====
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 609.915562
+  g3: 602.321580
+  g4: 608.235098
+  g5: 606.654515
+  g6: 597.127608
+  g7: 589.988350
+DeltaT = <Tg2> - <Tg6> = 12.787955 K
+
+Saved per-group figures:
+  group_3_shc_Jsum_S71.png
+  group_3_shc_Glike_S71.png
+  group_3_shc_Glike_cum_S71.png
+  group_3_summary.txt
+  group_3_spectral_data.txt
+  group_4_shc_Jsum_S71.png
+  group_4_shc_Glike_S71.png
+  group_4_shc_Glike_cum_S71.png
+  group_4_summary.txt
+  group_4_spectral_data.txt
+  group_5_shc_Jsum_S71.png
+  group_5_shc_Glike_S71.png
+  group_5_shc_Glike_cum_S71.png
+  group_5_summary.txt
+  group_5_spectral_data.txt
+
+Saved combined figures:
+  combined_shc_Jsum_S71.png
+  combined_shc_Glike_S71.png
+  combined_shc_Glike_cum_S71.png
+  combined_group_summary.txt

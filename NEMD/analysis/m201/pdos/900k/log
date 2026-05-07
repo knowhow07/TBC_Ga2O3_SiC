@@ -1,0 +1,193 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*                     version 4.4                             *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 25440.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Box matrix h = [a, b, c] is
+    2.0328868118e+02    0.0000000000e+00    0.0000000000e+00
+    0.0000000000e+00    3.6876000000e+01    0.0000000000e+00
+    0.0000000000e+00    0.0000000000e+00    3.7258144920e+01
+Inverse box matrix g = inv(h) is
+    4.9191130278e-03    0.0000000000e+00    0.0000000000e+00
+    0.0000000000e+00    2.7117908667e-02    0.0000000000e+00
+    0.0000000000e+00    0.0000000000e+00    2.6839768919e-02
+Do not specify initial velocities here.
+Have 1 grouping method(s).
+There are 4 groups of atoms in grouping method 0.
+    4584 atoms in group 0.
+    4032 atoms in group 1.
+    13104 atoms in group 2.
+    3720 atoms in group 3.
+There are 5 atom types.
+    4800 atoms of type 0.
+    7200 atoms of type 1.
+    6720 atoms of type 2.
+    6720 atoms of type 3.
+    0 atoms of type 4.
+Initialized velocities with default T = 300 K.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.
+---------------------------------------------------------------
+
+Use the NEP4 potential with 5 atom types.
+    type 0 (Ga with Z = 31).
+    type 1 (O with Z = 8).
+    type 2 (Si with Z = 14).
+    type 3 (C with Z = 6).
+    type 4 (H with Z = 1).
+    radial cutoff = 9 A.
+    angular cutoff = 6 A.
+    MN_radial = 338.
+    enlarged MN_radial = 423.
+    enlarged MN_angular = 129.
+    n_max_radial = 10.
+    n_max_angular = 8.
+    basis_size_radial = 12.
+    basis_size_angular = 10.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 56-96-1.
+    number of neural network parameters = 27841.
+    number of descriptor parameters = 6050.
+    total number of parameters = 33891.
+Time step for this run is 1 fs.
+Initialized velocities with input T = 900 K.
+Use NVT ensemble for this run.
+    choose the Berendsen method.
+    initial temperature is 900 K.
+    final temperature is 900 K.
+    tau_T is 100 time_step.
+Group 0 in grouping method 0 will be fixed.
+Dump thermo every 10000 steps.
+Run 200000 steps.
+    20000 steps completed.
+    40000 steps completed.
+    60000 steps completed.
+    80000 steps completed.
+    100000 steps completed.
+    120000 steps completed.
+    140000 steps completed.
+    160000 steps completed.
+    180000 steps completed.
+    200000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 1793.68 second.
+Speed of this run = 2.83663e+06 atom*step/second.
+---------------------------------------------------------------
+
+Use NVE ensemble for this run.
+Group 0 in grouping method 0 will be fixed.
+Dump thermo every 10000 steps.
+Run 500000 steps.
+    50000 steps completed.
+    100000 steps completed.
+    150000 steps completed.
+    200000 steps completed.
+    250000 steps completed.
+    300000 steps completed.
+    350000 steps completed.
+    400000 steps completed.
+    450000 steps completed.
+    500000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 4480.14 second.
+Speed of this run = 2.8392e+06 atom*step/second.
+---------------------------------------------------------------
+
+Dump extended XYZ.
+    for the whole system.
+    every 1 steps.
+    into file snapshot.xyz.
+Run 1 steps.
+    1 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 0.0354123 second.
+Speed of this run = 718394 atom*step/second.
+---------------------------------------------------------------
+
+Dump velocity.
+    every 10 steps.
+    grouping method is 0 and group ID is 2.
+
+---------------------------------------------------------------
+Warning: Starting from GPUMD-v3.4, the velocity data in velocity.out will be in units of Angstrom/fs
+         Previously they are in units of Angstrom/ps.
+         The reason for this change is to make it consistent with the extendend XYZ format.
+---------------------------------------------------------------
+
+Run 500000 steps.
+    50000 steps completed.
+    100000 steps completed.
+    150000 steps completed.
+    200000 steps completed.
+    250000 steps completed.
+    300000 steps completed.
+    350000 steps completed.
+    400000 steps completed.
+    450000 steps completed.
+    500000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 4765.52 second.
+Speed of this run = 2.66917e+06 atom*step/second.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished executing the commands in run.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used = 11039.403595 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running GPUMD.
+---------------------------------------------------------------
+

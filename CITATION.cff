@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Physics-Grounded Understanding of Thermal Boundary Conductance from a Feedforward Neural Network Potential"
+authors:
+  - family-names: "Anonymous"
+    given-names: "Author"
+version: "0.1.0"
+date-released: "2026-04-29"
+repository-code: "TBD"
+doi: "TBD"
+license: "Apache-2.0 for code; CC-BY-NC-4.0 for data, figures, and documentation"
+keywords:
+  - thermal boundary conductance
+  - neural network potential
+  - neuroevolution potential
+  - Ga2O3
+  - SiC
+  - molecular dynamics
+  - phonons
+abstract: "Reproducibility archive for a Ga-O-Si-C-H neuroevolution potential study of Ga2O3/SiC thermal boundary conductance."

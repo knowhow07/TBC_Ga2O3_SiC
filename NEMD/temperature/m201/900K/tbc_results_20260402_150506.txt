@@ -1,0 +1,137 @@
+Found job folders: ['job_01', 'job_02', 'job_03', 'job_04']
+
+===== Job: job_01 =====
+Lx = 203.289 Å, cross-section area = 1373.931 Å²
+Using last 25 rows out of 50 as steady state
+==== Thermal analysis run ====
+Timestamp: 20260402_150506
+compute_file       = job_01/compute.out
+model_file         = job_01/model.xyz
+
+---- User parameters ----
+skip_fraction      = 0.5
+time_step_fs       = 1.0
+sample_interval    = 1
+output_interval    = 200000
+x_sic_min/max      = 30.0, 90.0
+x_ga_min/max       = 130.0, 180.0
+x_int              = 105
+==========================
+
+slope SiC   dT/dx = -0.0272 K/Å
+slope Ga2O3 dT/dx = -0.3060 K/Å
+dE_hot/dt  = -0.5804 eV/ps
+dE_cold/dt = 0.5818 eV/ps
+heat flux |q| = 4.229354e-04 eV/(ps·Å²)
+k_Ga2O3 = 2.21 W/mK
+k_SiC   = 24.92 W/mK
+T_SiC  (interface) = 915.54 K
+T_Ga2O3(interface) = 912.14 K
+ΔT_interface (SiC - Ga2O3) = 3.396 K
+TBC G = 1995.187 MW/(m²·K)
+R_K   = 0.501 m²·K/GW
+TBR  = 0.501 m²·K/GW   (ΔT / J_Q)
+
+===== Job: job_02 =====
+Lx = 203.289 Å, cross-section area = 1373.931 Å²
+Using last 25 rows out of 50 as steady state
+==== Thermal analysis run ====
+Timestamp: 20260402_150506
+compute_file       = job_02/compute.out
+model_file         = job_02/model.xyz
+
+---- User parameters ----
+skip_fraction      = 0.5
+time_step_fs       = 1.0
+sample_interval    = 1
+output_interval    = 200000
+x_sic_min/max      = 30.0, 90.0
+x_ga_min/max       = 130.0, 180.0
+x_int              = 105
+==========================
+
+slope SiC   dT/dx = -0.0319 K/Å
+slope Ga2O3 dT/dx = -0.3053 K/Å
+dE_hot/dt  = -0.5715 eV/ps
+dE_cold/dt = 0.5759 eV/ps
+heat flux |q| = 4.175786e-04 eV/(ps·Å²)
+k_Ga2O3 = 2.19 W/mK
+k_SiC   = 21.00 W/mK
+T_SiC  (interface) = 914.58 K
+T_Ga2O3(interface) = 911.06 K
+ΔT_interface (SiC - Ga2O3) = 3.524 K
+TBC G = 1898.549 MW/(m²·K)
+R_K   = 0.527 m²·K/GW
+TBR  = 0.527 m²·K/GW   (ΔT / J_Q)
+
+===== Job: job_03 =====
+Lx = 203.289 Å, cross-section area = 1373.931 Å²
+Using last 13 rows out of 26 as steady state
+==== Thermal analysis run ====
+Timestamp: 20260402_150506
+compute_file       = job_03/compute.out
+model_file         = job_03/model.xyz
+
+---- User parameters ----
+skip_fraction      = 0.5
+time_step_fs       = 1.0
+sample_interval    = 1
+output_interval    = 200000
+x_sic_min/max      = 30.0, 90.0
+x_ga_min/max       = 130.0, 180.0
+x_int              = 105
+==========================
+
+slope SiC   dT/dx = -0.0170 K/Å
+slope Ga2O3 dT/dx = -0.3116 K/Å
+dE_hot/dt  = -0.5337 eV/ps
+dE_cold/dt = 0.5286 eV/ps
+heat flux |q| = 3.865797e-04 eV/(ps·Å²)
+k_Ga2O3 = 1.99 W/mK
+k_SiC   = 36.49 W/mK
+T_SiC  (interface) = 914.59 K
+T_Ga2O3(interface) = 911.59 K
+ΔT_interface (SiC - Ga2O3) = 2.995 K
+TBC G = 2067.740 MW/(m²·K)
+R_K   = 0.484 m²·K/GW
+TBR  = 0.484 m²·K/GW   (ΔT / J_Q)
+
+===== Job: job_04 =====
+Lx = 203.289 Å, cross-section area = 1373.931 Å²
+Using last 13 rows out of 26 as steady state
+==== Thermal analysis run ====
+Timestamp: 20260402_150506
+compute_file       = job_04/compute.out
+model_file         = job_04/model.xyz
+
+---- User parameters ----
+skip_fraction      = 0.5
+time_step_fs       = 1.0
+sample_interval    = 1
+output_interval    = 200000
+x_sic_min/max      = 30.0, 90.0
+x_ga_min/max       = 130.0, 180.0
+x_int              = 105
+==========================
+
+slope SiC   dT/dx = -0.0544 K/Å
+slope Ga2O3 dT/dx = -0.3120 K/Å
+dE_hot/dt  = -0.6035 eV/ps
+dE_cold/dt = 0.5970 eV/ps
+heat flux |q| = 4.368936e-04 eV/(ps·Å²)
+k_Ga2O3 = 2.24 W/mK
+k_SiC   = 12.87 W/mK
+T_SiC  (interface) = 913.81 K
+T_Ga2O3(interface) = 910.82 K
+ΔT_interface (SiC - Ga2O3) = 2.983 K
+TBC G = 2346.483 MW/(m²·K)
+R_K   = 0.426 m²·K/GW
+TBR  = 0.426 m²·K/GW   (ΔT / J_Q)
+
+===== Summary over jobs =====
+Included jobs: ['job_01', 'job_02', 'job_03', 'job_04']
+Avg k_SiC   = 23.820 ± 4.913 W/mK
+Avg k_Ga2O3 = 2.159 ± 0.058 W/mK
+Average TBC G   = 2.077e+03 ± 9.628e+01 MW/(m²·K)
+Average TBR     = 4.844e-01 ± 2.134e-02 m²K/GW
+================================

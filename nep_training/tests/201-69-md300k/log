@@ -1,0 +1,313 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*    (Graphics Processing Units Molecular Dynamics)           *
+*                     version 4.4                             *
+*              This is the nep executable                     *
+***************************************************************
+
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 8
+Device id:                   0
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+Device id:                   1
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+Device id:                   2
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+Device id:                   3
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+Device id:                   4
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+Device id:                   5
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+Device id:                   6
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+Device id:                   7
+    Device name:             NVIDIA H100 NVL
+    Compute capability:      9.0
+    Amount of global memory: 93.1221 GB
+    Number of SMs:           132
+GPU-0 can access GPU-1.
+GPU-0 can access GPU-2.
+GPU-0 can access GPU-3.
+GPU-0 can access GPU-4.
+GPU-0 can access GPU-5.
+GPU-0 can access GPU-6.
+GPU-0 can access GPU-7.
+GPU-1 can access GPU-0.
+GPU-1 can access GPU-2.
+GPU-1 can access GPU-3.
+GPU-1 can access GPU-4.
+GPU-1 can access GPU-5.
+GPU-1 can access GPU-6.
+GPU-1 can access GPU-7.
+GPU-2 can access GPU-0.
+GPU-2 can access GPU-1.
+GPU-2 can access GPU-3.
+GPU-2 can access GPU-4.
+GPU-2 can access GPU-5.
+GPU-2 can access GPU-6.
+GPU-2 can access GPU-7.
+GPU-3 can access GPU-0.
+GPU-3 can access GPU-1.
+GPU-3 can access GPU-2.
+GPU-3 can access GPU-4.
+GPU-3 can access GPU-5.
+GPU-3 can access GPU-6.
+GPU-3 can access GPU-7.
+GPU-4 can access GPU-0.
+GPU-4 can access GPU-1.
+GPU-4 can access GPU-2.
+GPU-4 can access GPU-3.
+GPU-4 can access GPU-5.
+GPU-4 can access GPU-6.
+GPU-4 can access GPU-7.
+GPU-5 can access GPU-0.
+GPU-5 can access GPU-1.
+GPU-5 can access GPU-2.
+GPU-5 can access GPU-3.
+GPU-5 can access GPU-4.
+GPU-5 can access GPU-6.
+GPU-5 can access GPU-7.
+GPU-6 can access GPU-0.
+GPU-6 can access GPU-1.
+GPU-6 can access GPU-2.
+GPU-6 can access GPU-3.
+GPU-6 can access GPU-4.
+GPU-6 can access GPU-5.
+GPU-6 can access GPU-7.
+GPU-7 can access GPU-0.
+GPU-7 can access GPU-1.
+GPU-7 can access GPU-2.
+GPU-7 can access GPU-3.
+GPU-7 can access GPU-4.
+GPU-7 can access GPU-5.
+GPU-7 can access GPU-6.
+
+---------------------------------------------------------------
+Started running nep.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started reading nep.in.
+---------------------------------------------------------------
+
+Default population size adjusted from 50 to 56 for GPU compatibility.
+Input or default parameters:
+    (default) model_type = potential.
+    (input)   calculation mode = predict.
+    (default) use NEP version 4.
+    (input)   number of atom types = 5.
+        (default) type 0 (Ga with Z = 31) has force weight of 1.
+        (default) type 1 (O with Z = 8) has force weight of 1.
+        (default) type 2 (Si with Z = 14) has force weight of 1.
+        (default) type 3 (C with Z = 6) has force weight of 1.
+        (default) type 4 (H with Z = 1) has force weight of 1.
+    (default) will not add the ZBL potential.
+    (input)   radial cutoff = 9 A.
+    (input)   angular cutoff = 6 A.
+    (default) use global cutoff for NEP.
+    (default) use global cutoff for ZBL.
+    (input)   n_max_radial = 10.
+    (input)   n_max_angular = 8.
+    (input)   basis_size_radial = 12.
+    (input)   basis_size_angular = 10.
+    (default) l_max_3body = 4.
+    (default) l_max_4body = 2.
+    (default) l_max_5body = 0.
+    (input)   number of neurons = 96.
+    (input)   lambda_1 = 0.05.
+    (input)   lambda_2 = 0.05.
+    (input)   lambda_e = 1.
+    (input)   lambda_f = 2.
+    (input)   lambda_v = 0.1.
+    (default) atomic_v = 0.
+    (default) lambda_shear = 1.
+    (default) force_delta = 0.
+    (input)   batch size = 1000.
+    (input)   population size = 24.
+    (input)   maximum number of generations = 500000.
+    (input)   save potential every N = 100000 generations.
+Some calculated parameters:
+    number of radial descriptor components = 11.
+    number of angular descriptor components = 45.
+    total number of descriptor components = 56.
+    NN architecture = 56-96-1.
+    number of NN parameters to be optimized = 27841.
+    number of descriptor parameters to be optimized = 6050.
+    total number of parameters to be optimized = 33891.
+
+---------------------------------------------------------------
+Finished reading nep.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started reading train.xyz
+---------------------------------------------------------------
+
+Number of configurations = 101.
+Number of devices = 8
+Number of batches = 1
+Hello, I changed the batch_size from 1000 to 101.
+
+Batch 0:
+Number of configurations = 101.
+
+---------------------------------------------------------------
+Constructing train_set in device  0.
+Total number of atoms = 6969.
+Number of atoms in the largest configuration = 69.
+Number of configurations having virial = 101.
+Radial descriptor with a cutoff of 9 A:
+    Minimum number of neighbors for one atom = 130.
+    Maximum number of neighbors for one atom = 305.
+Angular descriptor with a cutoff of 6 A:
+    Minimum number of neighbors for one atom = 36.
+    Maximum number of neighbors for one atom = 93.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Constructing train_set in device  1.
+Total number of atoms = 6969.
+Number of atoms in the largest configuration = 69.
+Number of configurations having virial = 101.
+Radial descriptor with a cutoff of 9 A:
+    Minimum number of neighbors for one atom = 130.
+    Maximum number of neighbors for one atom = 305.
+Angular descriptor with a cutoff of 6 A:
+    Minimum number of neighbors for one atom = 36.
+    Maximum number of neighbors for one atom = 93.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Constructing train_set in device  2.
+Total number of atoms = 6969.
+Number of atoms in the largest configuration = 69.
+Number of configurations having virial = 101.
+Radial descriptor with a cutoff of 9 A:
+    Minimum number of neighbors for one atom = 130.
+    Maximum number of neighbors for one atom = 305.
+Angular descriptor with a cutoff of 6 A:
+    Minimum number of neighbors for one atom = 36.
+    Maximum number of neighbors for one atom = 93.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Constructing train_set in device  3.
+Total number of atoms = 6969.
+Number of atoms in the largest configuration = 69.
+Number of configurations having virial = 101.
+Radial descriptor with a cutoff of 9 A:
+    Minimum number of neighbors for one atom = 130.
+    Maximum number of neighbors for one atom = 305.
+Angular descriptor with a cutoff of 6 A:
+    Minimum number of neighbors for one atom = 36.
+    Maximum number of neighbors for one atom = 93.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Constructing train_set in device  4.
+Total number of atoms = 6969.
+Number of atoms in the largest configuration = 69.
+Number of configurations having virial = 101.
+Radial descriptor with a cutoff of 9 A:
+    Minimum number of neighbors for one atom = 130.
+    Maximum number of neighbors for one atom = 305.
+Angular descriptor with a cutoff of 6 A:
+    Minimum number of neighbors for one atom = 36.
+    Maximum number of neighbors for one atom = 93.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Constructing train_set in device  5.
+Total number of atoms = 6969.
+Number of atoms in the largest configuration = 69.
+Number of configurations having virial = 101.
+Radial descriptor with a cutoff of 9 A:
+    Minimum number of neighbors for one atom = 130.
+    Maximum number of neighbors for one atom = 305.
+Angular descriptor with a cutoff of 6 A:
+    Minimum number of neighbors for one atom = 36.
+    Maximum number of neighbors for one atom = 93.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Constructing train_set in device  6.
+Total number of atoms = 6969.
+Number of atoms in the largest configuration = 69.
+Number of configurations having virial = 101.
+Radial descriptor with a cutoff of 9 A:
+    Minimum number of neighbors for one atom = 130.
+    Maximum number of neighbors for one atom = 305.
+Angular descriptor with a cutoff of 6 A:
+    Minimum number of neighbors for one atom = 36.
+    Maximum number of neighbors for one atom = 93.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Constructing train_set in device  7.
+Total number of atoms = 6969.
+Number of atoms in the largest configuration = 69.
+Number of configurations having virial = 101.
+Radial descriptor with a cutoff of 9 A:
+    Minimum number of neighbors for one atom = 130.
+    Maximum number of neighbors for one atom = 305.
+Angular descriptor with a cutoff of 6 A:
+    Minimum number of neighbors for one atom = 36.
+    Maximum number of neighbors for one atom = 93.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used for initialization = 12.554593 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started predicting.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used for predicting = 0.421598 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running nep.
+---------------------------------------------------------------
+

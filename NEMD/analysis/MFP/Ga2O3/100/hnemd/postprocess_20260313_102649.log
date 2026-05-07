@@ -1,0 +1,4 @@
+Found 1 kappa.out files under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/100/job_01.
+Found 1 shc.out files under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/100/job_01.
+Averaged running kappa over 1 runs.
+Averaged spectral kappa over 1 runs.

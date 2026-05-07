@@ -1,0 +1,57 @@
+# -----------------------------
+# Potential / structure
+# -----------------------------
+potential   nep.txt
+
+# IMPORTANT: your model_nemd.xyz must define groups/layers you want:
+# e.g. group 0 = frozen walls, group 1 = hot bath, group 2 = cold bath,
+# group 3 = bulk-left sampling slab, group 4 = interface slab, group 5 = bulk-right slab
+# (exact IDs depend on your xyz)
+# model      model_nemd.xyz
+
+time_step   1
+velocity    600
+
+# -----------------------------
+# Equilibration
+# -----------------------------
+ensemble    nvt_ber 600 600 100
+fix         0
+dump_thermo 10000
+run         200000          # 200 ps (longer than your 100 ps is safer)
+
+# -----------------------------
+# Build steady-state gradient (do NOT record spectra here)
+# -----------------------------
+ensemble    heat_lan 600 100 10 1 6
+fix         0
+dump_thermo 10000
+
+# temperature profile bins
+
+run         2000000          # 0.5 ns warm-up to reach steady state
+
+# -----------------------------
+# Production for analysis
+# -----------------------------
+# (A) SHC / spectral heat current
+# Choose parameters carefully (see section below)
+compute_shc 10 1000 0 4000 320 group 0 5
+#   dt_samp=2fs  Nc  dir  Nw   max_omega(THz)
+
+# dump_velocity 10 group 0 3
+compute     0 1 100000 temperature
+
+
+# (B) Velocity dump for PDOS (ONLY for selected groups)
+# (syntax depends on your GPUMD build; use whatever velocity dump keyword you have)
+# Idea: dump velocities every 10 steps for groups 3/4/5 to separate bulk/interface/bulk
+# dump_velocity 10 group 0 3 vel_bulkL.dat
+# dump_velocity 10 group 0 4 vel_int.dat
+# dump_velocity 10 group 0 5 vel_bulkR.dat
+
+# Still dump thermo
+fix         0
+dump_thermo 10000
+
+run         6000000         # 4 ns production (as you already do)

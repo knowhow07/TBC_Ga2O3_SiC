@@ -1,0 +1,40 @@
+
+=== Logging to logs/bulk_bar_log_20260310_194547.log ===
+
+Loaded structure from: rotated_longx_SiC_out.xyz
+Number of atoms: 6720
+Parsed lattice from XYZ header:
+[[63.86010488  0.          0.        ]
+ [ 0.         36.9083298   0.        ]
+ [ 0.          0.         37.29080975]]
+x range: [5.422276, 53.887924]  (Lx = 48.465648 Å)
+Region bounds along x (Å):
+  xmin       : 5.422276
+  fixL_end   : 13.422276   -> end of left fixed (group 0)
+  hot_end    : 23.422276   -> end of hot (group 1)
+  center_beg : 23.655100   -> start of center (group 3)
+  xmid       : 29.655100   -> center of group 3
+  center_end : 35.655100   -> end of center (group 3)
+  cold_beg   : 35.887924   -> start of cold (group 5)
+  fixR_beg   : 45.887924   -> start of right fixed (group 0)
+  xmax       : 53.887924
+
+Group counts:
+  group 0: 2352
+  group 1: 1344
+  group 2: 0
+  group 3: 1680
+  group 4: 0
+  group 5: 1344
+
+Wrote GPUMD model XYZ to: model.xyz
+Wrote group plot PNG to: group_regions.png
+
+✅ model.xyz written successfully.
+Group meaning:
+  0 = fixed ends
+  1 = hot
+  2 = left dump
+  3 = center
+  4 = right dump
+  5 = cold

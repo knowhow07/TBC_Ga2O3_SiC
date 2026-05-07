@@ -1,0 +1,101 @@
+=== Group label → source roots ===
+ Ga2O3-scale  ←  <PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-0.960,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-0.970,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-0.980,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-0.990,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.000,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.010,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.020,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.030,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.040,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-0.960,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-0.970,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-0.980,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-0.990,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.000,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.010,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.020,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.030,<PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/scale2/POSCAR.01x03x02/01.scale_pert/sys-0048-0072/scale-1.040
+Ga2O3-md300-1000k  ←  <PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/md-300to1000/job_1
+Ga2O3-md300k  ←  <PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/md-300/job_1
+Ga2O3-md600k  ←  <PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/md-600/job_1
+Ga2O3-md900k  ←  <PATH_TO_DATA>/qe_jobs/single_step/Ga2O3/sym/md-900/job_1
+   SiC-scale  ←  <PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-0.960,<PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-0.970,<PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-0.980,<PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-0.990,<PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-1.000,<PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-1.010,<PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-1.020,<PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-1.030,<PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/scale/CONTCAR_finerelax_mp.03x03x02/01.scale_pert/sys-0072-0072/scale-1.040
+SiC-md300-1000k  ←  <PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/md-300to1000/job_1
+  SiC-md300k  ←  <PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/md300k/job_1
+  SiC-md600k  ←  <PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/md600k/job_1
+  SiC-md900k  ←  <PATH_TO_DATA>/qe_jobs/single_step/SiC/sym/md900k/job_1
+100-168-md300k  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-168atoms/md300k/single
+100-168-md600k  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-168atoms/md600k/single
+100-168-md900k  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-168atoms/md900k/single/job_1
+ 100-168-dis  ←  <PATH_TO_DATA>/qe_jobs_pre/inter_displace_168/jobs/sigma_0.010,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_168/jobs/sigma_0.015,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_168/jobs/sigma_0.020,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_168/jobs/sigma_0.025,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_168/jobs/sigma_0.030
+100-84-md300k  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-bei/single/md300k
+100-84-md450k  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-bei/single/md450k
+100-84-md600k  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-bei/single/md600k
+100-84-md900k  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-bei/single/md900k/job_1
+100-84-random  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-bei/random/displacement/output,<PATH_TO_DATA>/qe_jobs/single_step/100-bei/random/compress/output,<PATH_TO_DATA>/qe_jobs/single_step/100-bei/random/strain/output,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_bei/jobs/sigma_0.010,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_bei/jobs/sigma_0.015,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_bei/jobs/sigma_0.020,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_bei/jobs/sigma_0.025,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_bei/jobs/sigma_0.030
+ 100-84-melt  ←  <PATH_TO_DATA>/qe_jobs/single_step/100-bei/Si-O-melt/job1
+201-69-md300k  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-63atoms/md-300k
+201-69-md450k  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-63atoms/md-450k
+201-69-md600k  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-63atoms/md-600k
+201-69-md900k  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-63atoms/md-900k
+201-69-random  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-63atoms/random/compress/output,<PATH_TO_DATA>/qe_jobs/single_step/201-SiO-63atoms/random/displacement/output,<PATH_TO_DATA>/qe_jobs/single_step/201-SiO-63atoms/random/strain/output,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_69atoms/jobs/sigma_0.010,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_69atoms/jobs/sigma_0.015,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_69atoms/jobs/sigma_0.020,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_69atoms/jobs/sigma_0.025,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_69atoms/jobs/sigma_0.030
+201-106-md300k  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-106atoms/md-300k
+201-106-md600k  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-106atoms/md-600k
+201-106-md900k  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-106atoms/md-900k
+ 201_106-dis  ←  <PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_106_atoms/jobs/sigma_0.010,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_106_atoms/jobs/sigma_0.015,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_106_atoms/jobs/sigma_0.020,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_106_atoms/jobs/sigma_0.025,<PATH_TO_DATA>/qe_jobs_pre/inter_displace_201_106_atoms/jobs/sigma_0.030
+201_106-melt  ←  <PATH_TO_DATA>/qe_jobs/single_step/201-SiO-106atoms/m3g_novac/job1
+
+[Ga2O3-scale] test:    182 frames → Ga2O3-scale.xyz
+[Ga2O3-md300-1000k] test:    200 frames → Ga2O3-md300-1000k.xyz
+[Ga2O3-md300k] test:    101 frames → Ga2O3-md300k.xyz
+[Ga2O3-md600k] test:    101 frames → Ga2O3-md600k.xyz
+[Ga2O3-md900k] test:    101 frames → Ga2O3-md900k.xyz
+[SiC-scale] test:     91 frames → SiC-scale.xyz
+[SiC-md300-1000k] test:    200 frames → SiC-md300-1000k.xyz
+[SiC-md300k] test:     86 frames → SiC-md300k.xyz
+[SiC-md600k] test:    101 frames → SiC-md600k.xyz
+[SiC-md900k] test:    101 frames → SiC-md900k.xyz
+[100-168-md300k] test:    100 frames → 100-168-md300k.xyz
+[100-168-md600k] test:    100 frames → 100-168-md600k.xyz
+[100-168-md900k] test:     88 frames → 100-168-md900k.xyz
+[100-168-dis] test:     25 frames → 100-168-dis.xyz
+[100-84-md300k] test:    102 frames → 100-84-md300k.xyz
+[100-84-md450k] test:    101 frames → 100-84-md450k.xyz
+[100-84-md600k] test:    103 frames → 100-84-md600k.xyz
+[100-84-md900k] test:    103 frames → 100-84-md900k.xyz
+[100-84-random] test:     56 frames → 100-84-random.xyz
+[100-84-melt] test:     50 frames → 100-84-melt.xyz
+[201-69-md300k] test:    101 frames → 201-69-md300k.xyz
+[201-69-md450k] test:    100 frames → 201-69-md450k.xyz
+[201-69-md600k] test:    100 frames → 201-69-md600k.xyz
+[201-69-md900k] test:    100 frames → 201-69-md900k.xyz
+[201-69-random] test:     56 frames → 201-69-random.xyz
+[201-106-md300k] test:    100 frames → 201-106-md300k.xyz
+[201-106-md600k] test:    101 frames → 201-106-md600k.xyz
+[201-106-md900k] test:    100 frames → 201-106-md900k.xyz
+[201_106-dis] test:     25 frames → 201_106-dis.xyz
+[201_106-melt] test:     50 frames → 201_106-melt.xyz
+
+=== DONE ===
+train: <PATH_TO_DATA>/qe_jobs/nep_training/config/0217/data/train.xyz   (~21065 frames)
+val  : <PATH_TO_DATA>/qe_jobs/nep_training/config/0217/data/val.xyz     (~5266 frames)
+Per-folder test files in: <PATH_TO_DATA>/qe_jobs/nep_training/config/0217/data/tests
+Manifest: <PATH_TO_DATA>/qe_jobs/nep_training/config/0217/data/manifest.csv
+Log: <PATH_TO_DATA>/qe_jobs/nep_training/config/0217/data/prep_nep_20260217_100641.log
+
+=== Frame counts by label ===
+       100-168-dis  train=    175  val=     50  test=     25  total=    250
+    100-168-md300k  train=    736  val=    165  test=    100  total=   1001
+    100-168-md600k  train=    705  val=    196  test=    100  total=   1001
+    100-168-md900k  train=    623  val=    170  test=     88  total=    881
+     100-84-md300k  train=    741  val=    182  test=    102  total=   1025
+     100-84-md450k  train=    739  val=    173  test=    101  total=   1013
+     100-84-md600k  train=    744  val=    179  test=    103  total=   1026
+     100-84-md900k  train=    744  val=    179  test=    103  total=   1026
+       100-84-melt  train=    364  val=     86  test=     50  total=    500
+     100-84-random  train=    399  val=    101  test=     56  total=    556
+    201-106-md300k  train=    730  val=    171  test=    100  total=   1001
+    201-106-md600k  train=    739  val=    173  test=    101  total=   1013
+    201-106-md900k  train=    704  val=    196  test=    100  total=   1000
+     201-69-md300k  train=    717  val=    190  test=    101  total=   1008
+     201-69-md450k  train=    720  val=    181  test=    100  total=   1001
+     201-69-md600k  train=    703  val=    197  test=    100  total=   1000
+     201-69-md900k  train=    735  val=    165  test=    100  total=   1000
+     201-69-random  train=    393  val=    107  test=     56  total=    556
+       201_106-dis  train=    183  val=     42  test=     25  total=    250
+      201_106-melt  train=    363  val=     88  test=     50  total=    501
+ Ga2O3-md300-1000k  train=   1443  val=    358  test=    200  total=   2001
+      Ga2O3-md300k  train=    745  val=    165  test=    101  total=   1011
+      Ga2O3-md600k  train=    704  val=    206  test=    101  total=   1011
+      Ga2O3-md900k  train=    749  val=    161  test=    101  total=   1011
+       Ga2O3-scale  train=   1287  val=    349  test=    182  total=   1818
+   SiC-md300-1000k  train=   1450  val=    351  test=    200  total=   2001
+        SiC-md300k  train=    617  val=    160  test=     86  total=    863
+        SiC-md600k  train=    727  val=    183  test=    101  total=   1011
+        SiC-md900k  train=    726  val=    184  test=    101  total=   1011
+         SiC-scale  train=    660  val=    158  test=     91  total=    909

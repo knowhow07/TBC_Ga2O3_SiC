@@ -1,0 +1,53 @@
+# -----------------------------
+# bulk SiC short ballistic NEMD
+# for spectral G(omega)
+# -----------------------------
+
+potential   nep.txt
+velocity    300
+time_step   1
+
+# group meaning in model_nemd.xyz:
+# group 0 = fixed ends
+# group 1 = hot bath
+# group 2 = left buffer
+# group 3 = central SHC / transport region
+# group 4 = right buffer
+# group 5 = cold bath
+# -----------------------------
+# Equilibration
+# -----------------------------
+ensemble    nvt_ber 300 300 100
+fix         0
+dump_thermo 1000
+run         100000
+
+# -----------------------------
+# Build steady state
+# -----------------------------
+ensemble    heat_lan 300 100 10 1 5
+fix         0
+dump_thermo 1000
+compute     0 10 100 temperature
+run         500000
+
+# -----------------------------
+# Production for spectral G(omega)
+# -----------------------------
+ensemble    heat_lan 300 100 10 1 5
+fix         0
+
+# heat flux / energy exchange
+compute     0 10 100 temperature
+
+# SHC on central bulk SiC transport region
+# sample_interval = 2 fs
+# Nc = 250  -> correlation length 500 fs
+# direction 0 = x
+# num_omega = 1000
+# max_omega = 50 THz
+compute_shc 2 1000 0 4000 50.0 group 0 3
+dump_velocity 2 group 0 3
+
+dump_thermo 1000
+run         2000000

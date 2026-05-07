@@ -1,0 +1,44 @@
+# ===== Stage 1: Robust pre-SCF for slab (from atomic density) =====
+# Start clean (good initial density)
+ISTART = 1
+ICHARG = 1
+INIWAV = 1
+
+# Electronic minimization (stable for slabs)
+ALGO   = Normal
+LREAL  = .FALSE.
+ENCUT  = 500
+PREC   = Accurate
+EDIFF  = 1E-5
+NELM   = 200
+
+# Slab-friendly mixing (tames charge sloshing)
+AMIX    = 0.2
+BMIX    = 0.0001
+LMAXMIX = 4
+MAXMIX  = 80
+
+# Smearing (insulating/semiconducting slabs)
+ISMEAR  = 0          # Gaussian smearing (default for semiconductors)
+SIGMA   = 0.05       # Smearing width in eV
+
+# Dipole correction (vacuum along z)
+LDIPOL = .TRUE.
+IDIPOL = 3
+# IMPORTANT: set DIPOL's z to the slab's fractional center (update the 3rd number):
+DIPOL  = 0.5 0.5 0.3   # <-- replace 0.38 by your slab center (fractional z)
+
+# Outputs you likely want
+LAECHG = .TRUE.
+LCHARG = .TRUE.
+LWAVE  = .TRUE.
+LVHAR  = .TRUE.
+LVTOT  = .TRUE.
+LELF   = .TRUE.
+
+# Keep the SAME KPOINTS as your interface run.
+# For charge-difference work, also pin the FFT grid to match the interface:
+# NGX = <from interface OUTCAR>
+# NGY = <from interface OUTCAR>
+# NGZ = <from interface OUTCAR>
+# (and NGXF/NGYF/NGZF if you used them)

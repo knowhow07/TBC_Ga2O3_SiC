@@ -1,0 +1,6 @@
+# kx_avg_final   ky_avg_final   kz_avg_final   kiso_avg_final
+# 
+70.528522
+125.583151
+52.366353
+82.826009

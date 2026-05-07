@@ -1,0 +1,2 @@
+direction = x
+kappa_x_avg = 63.391735 W/m/K

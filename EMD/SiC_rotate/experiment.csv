@@ -1,0 +1,14 @@
+4H (SI) – In-plane (kr)
+Direction,Temperature_K,ThermalConductivity_W_per_mK
+in-plane (kr),250,670
+in-plane (kr),300,470
+in-plane (kr),350,405
+in-plane (kr),400,310
+in-plane (kr),450,260
+4H (SI) – Cross-plane (kz)
+Direction,Temperature_K,ThermalConductivity_W_per_mK
+cross-plane (kz),250,440
+cross-plane (kz),300,325
+cross-plane (kz),350,235
+cross-plane (kz),400,205
+cross-plane (kz),450,185

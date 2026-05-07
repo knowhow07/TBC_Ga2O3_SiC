@@ -1,0 +1,15 @@
+SNAPSHOT_XYZ = model.xyz
+VELOCITY_OUT = velocity.out
+IO_MODE = npy
+CACHE_NPY = velocity_g2.npy
+GROUP_ID = 2
+X_INTERFACE = 105.848
+WINDOW_W = 5.0
+left slab = [100.848, 105.848) Å, n=672
+right slab = (105.848, 110.848] Å, n=600
+DT_FS = 1.0
+DUMP_EVERY = 10
+dt_sample_fs = 10.000
+n_frames = 50000
+ENERGY_SMOOTH_POINTS = 21
+FREQ_BINS = [(1, 5), (5, 10), (10, 15), (15, 20), (20, 25), (25, 30)]

@@ -1,0 +1,47 @@
+# --- potential and initial structure ---
+potential   nep.txt
+
+velocity    300              # randomize velocities at 300 K
+
+# ==========================================================
+# 1) Equilibration (walls fixed)
+# ==========================================================
+ensemble    nvt_ber 300 300 100
+time_step   1
+fix         0
+dump_thermo 10000            # every 10 ps
+dump_xyz    -1 0 20000 nvt.xyz
+run         100000           # 100 ps
+
+# ==========================================================
+# 2) NEMD production (heat_lan) with better statistics
+# ==========================================================
+ensemble    heat_lan 300 100 10 1 42
+#              T0   tau  dT gh gc
+# T_hot = 310 K, T_cold = 290 K
+
+fix         0
+
+# --- start thermo output during production ---
+dump_thermo 10000            # every 10 ps
+
+# --- temperature profile (space+time averaged) ---
+# output every (sample_interval * output_interval) steps
+# choose: output every 50 ps -> 50,000 steps at dt=1 fs
+
+
+# ----------------------------------------------------------
+# (Optional but recommended) give a short stabilization run
+# AFTER enabling heat_lan + compute, BEFORE collecting main stats
+# ----------------------------------------------------------
+run         500000           # 0.5 ns "settle" with compute active
+compute     0 1 100000 temperature
+
+# ----------------------------------------------------------
+# Main production used for analysis
+# ----------------------------------------------------------
+fix         0  
+dump_thermo 10000
+dump_xyz -1 0 500000 nemd.xyz
+run         4000000           # 2 ns at dt = 1 fs
+

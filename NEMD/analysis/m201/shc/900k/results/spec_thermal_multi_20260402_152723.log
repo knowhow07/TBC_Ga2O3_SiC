@@ -1,0 +1,69 @@
+[LOG] Writing to <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/900k/results/spec_thermal_multi_20260402_152723.log
+[INFO] Root directory: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/900k
+[INFO] Results directory: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/900k/results
+[INFO] Groups to process: [3, 4, 5]
+
+===== Processing group 3 in <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/900k/shc_g3 =====
+Steady-state group temperatures (K):
+  g1: 14.728244
+  g2: 910.014566
+  g3: 903.656485
+  g4: 907.727139
+  g5: 906.551903
+  g6: 898.546556
+  g7: 890.173930
+DeltaT = <Tg2> - <Tg6> = 11.468010 K
+SHC group 3 x-range (Å): 56.623 -> 64.786 (center ~ 60.704)
+Area = 1373.931352 Å^2
+Omega points = 4000
+
+===== Processing group 4 in <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/900k/shc_g4 =====
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 909.843579
+  g3: 903.318804
+  g4: 907.669396
+  g5: 906.366923
+  g6: 898.927238
+  g7: 890.103771
+DeltaT = <Tg2> - <Tg6> = 10.916342 K
+SHC group 4 x-range (Å): 101.861 -> 110.392 (center ~ 105.821)
+Area = 1373.931352 Å^2
+Omega points = 4000
+
+===== Processing group 5 in <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/900k/shc_g5 =====
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 909.874156
+  g3: 902.966577
+  g4: 907.744260
+  g5: 906.610171
+  g6: 897.407483
+  g7: 890.252106
+DeltaT = <Tg2> - <Tg6> = 12.466673 K
+SHC group 5 x-range (Å): 142.229 -> 151.640 (center ~ 147.012)
+Area = 1373.931352 Å^2
+Omega points = 4000
+
+Saved per-group figures:
+  group_3_shc_Jsum_S71.png
+  group_3_shc_Glike_S71.png
+  group_3_shc_Glike_cum_S71.png
+  group_3_summary.txt
+  group_3_spectral_data.txt
+  group_4_shc_Jsum_S71.png
+  group_4_shc_Glike_S71.png
+  group_4_shc_Glike_cum_S71.png
+  group_4_summary.txt
+  group_4_spectral_data.txt
+  group_5_shc_Jsum_S71.png
+  group_5_shc_Glike_S71.png
+  group_5_shc_Glike_cum_S71.png
+  group_5_summary.txt
+  group_5_spectral_data.txt
+
+Saved combined figures:
+  combined_shc_Jsum_S71.png
+  combined_shc_Glike_S71.png
+  combined_shc_Glike_cum_S71.png
+  combined_group_summary.txt

@@ -1,0 +1,33 @@
+[INFO] Current path   : <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc
+[INFO] Results folder : <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/results_length
+[INFO] Temperature paths:
+  20+10 -> <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/300k
+  60+30 -> <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/60+30
+
+===== Processing group 3 across temperatures =====
+[OK] g3 20+10: dT=13.353412 K, area=1373.931352 Å², x=(56.623,64.786)
+[OK] g3 60+30: dT=12.007100 K, area=1376.341505 Å², x=(157.619,167.066)
+
+===== Processing group 4 across temperatures =====
+[OK] g4 20+10: dT=12.967663 K, area=1373.931352 Å², x=(101.861,110.392)
+[OK] g4 60+30: dT=12.130715 K, area=1376.341505 Å², x=(305.531,314.073)
+
+===== Processing group 5 across temperatures =====
+[OK] g5 20+10: dT=12.885641 K, area=1373.931352 Å², x=(142.229,151.640)
+[OK] g5 60+30: dT=12.216315 K, area=1376.341505 Å², x=(439.080,448.475)
+
+Saved figures:
+  group_3_Jsum_vs_temperature.png
+  group_3_Glike_vs_temperature.png
+  group_3_GlikeCum_vs_temperature.png
+  group_4_Jsum_vs_temperature.png
+  group_4_Glike_vs_temperature.png
+  group_4_GlikeCum_vs_temperature.png
+  group_5_Jsum_vs_temperature.png
+  group_5_Glike_vs_temperature.png
+  group_5_GlikeCum_vs_temperature.png
+
+Saved text outputs:
+  summary_by_group_and_temperature.txt
+  group_<gid>_<temp>_spectral_data.txt
+  log: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/results_length/compare_temp_by_group_20260404_101600.log

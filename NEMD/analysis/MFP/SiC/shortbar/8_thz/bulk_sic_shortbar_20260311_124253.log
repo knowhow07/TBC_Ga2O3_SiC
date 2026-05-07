@@ -1,0 +1,55 @@
+[LOG] Writing to <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/bulk_sic_shortbar_20260311_124253.log
+Found 4 job folders under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/job_*
+
+[job_01]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.193033
+  g3: 303.229566
+  g4: 299.993901
+  g5: 296.946995
+DeltaT = <Tg2> - <Tg4> = 9.199131 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_02]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.162811
+  g3: 303.547890
+  g4: 300.393934
+  g5: 297.134791
+DeltaT = <Tg2> - <Tg4> = 8.768877 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+
+[job_03]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.079282
+  g3: 303.368041
+  g4: 300.255941
+  g5: 296.880633
+DeltaT = <Tg2> - <Tg4> = 8.823341 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 20.141 -> 28.324 (center ~ 24.235)
+[WARN] skip <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/job_04: missing shc.out
+
+================ Summary ================
+Valid jobs used: 3
+Mean ΔT over jobs: 8.930450 K
+Std  ΔT over jobs: 0.234273 K
+Mean area over jobs: 1376.341505 Å^2
+SHC region x-ranges:
+  job_01: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_02: 20.141 -> 28.324 Å (center ~ 24.235)
+  job_03: 20.141 -> 28.324 Å (center ~ 24.235)
+
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/bulk_sic_shortbar_Gomega_avg.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/bulk_sic_shortbar_Gomega_all_runs.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/bulk_sic_shortbar_summary.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/bulk_sic_shortbar_Jarea_avg.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/bulk_sic_shortbar_Gomega_avg.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/pure/SiC/bulk_sic_shortbar_Gomega_cumulative.png
+
+Done.

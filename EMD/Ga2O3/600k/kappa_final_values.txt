@@ -1,0 +1,6 @@
+# kx_avg_final   ky_avg_final   kz_avg_final   kiso_avg_final
+# 
+2.140786
+9.106210
+9.244174
+6.830390

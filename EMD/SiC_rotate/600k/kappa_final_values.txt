@@ -1,0 +1,6 @@
+# kx_avg_final   ky_avg_final   kz_avg_final   kiso_avg_final
+# 
+109.712694
+110.944506
+56.954127
+92.537109

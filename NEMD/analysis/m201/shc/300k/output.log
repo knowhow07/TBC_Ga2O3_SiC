@@ -1,0 +1,4 @@
+SHC_GROUPS = 5
+=== Running GPUMD for group 5 in shc_g5 ===
+run_groups.sh: line 36: 3523441 Aborted                 (core dumped) "$GPUMD_EXE" > log 2>&1
+ERROR: GPUMD failed for group 5. See shc_g5/log

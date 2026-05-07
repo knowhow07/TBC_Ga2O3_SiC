@@ -1,0 +1,44 @@
+# -----------------------------
+# Potential / structure
+# -----------------------------
+potential   nep.txt
+# model      model.xyz        # (uncomment if you explicitly load a model file)
+
+time_step   1
+velocity    900
+
+# -----------------------------
+# Equilibration (get a stable temperature)
+# -----------------------------
+ensemble    nvt_ber 900 900 100
+fix         0
+dump_thermo 10000
+run         200000            # 200 ps
+
+# -----------------------------
+# PDOS production (equilibrium)
+# -----------------------------
+# Use NVE (or NVT) depending on your preference.
+# For PDOS, equilibrium is enough. NVE avoids thermostat artifacts.
+ensemble    nve
+fix         0
+
+# Dump velocities for PDOS groups
+# NOTE: dump_velocity writes to velocity.out.
+# If your GPUMD only allows one dump_velocity target at a time,
+# run three short segments (see below).
+# dump_velocity 10 group 0 1     # left bulk/reference
+dump_thermo   10000
+run           500000           # 0.5 ns (adjust: 0.5–1 ns typical)
+
+dump_xyz  -1 0 1 snapshot.xyz
+run 1
+# ---- Optional: repeat for interface and right in the SAME folder ----
+# If GPUMD overwrites velocity.out each time, rename velocity.out between segments.
+# (Do it in the shell: mv velocity.out velocity_left.out, etc.)
+
+dump_velocity 10 group 0 2   # wide interface slab
+run           500000
+
+# dump_velocity 10 group 0 3   # right bulk/reference
+# run           500000

@@ -1,0 +1,14 @@
+type 5 Ga O Si C H
+generation  500000
+batch       1000
+n_max       10 8
+basis_size  12 10
+neuron      96
+population  24
+cutoff      9.0 6.0
+lambda_1    0.05
+lambda_2    0.05
+lambda_e    1
+lambda_f    2
+lambda_v    0.1
+prediction 1

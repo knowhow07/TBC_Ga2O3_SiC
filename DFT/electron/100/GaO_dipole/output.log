@@ -1,0 +1,59 @@
+🔄 Starting vasp job...
+hwloc/linux: Ignoring PCI device with non-16bit domain.
+Pass --enable-32bits-pci-domain to configure to support such devices
+(warning: it would break the library ABI, don't enable unless really needed).
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_overflow is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+Warning: ieee_invalid is signaling
+Warning: ieee_divide_by_zero is signaling
+Warning: ieee_overflow is signaling
+Warning: ieee_underflow is signaling
+Warning: ieee_inexact is signaling
+FORTRAN STOP
+grep: : No such file or directory
+ Lock file retained for inspection.
+Atoms in file1: 40, Atoms in file2: 40
+Points in file1: 4644864, Points in file2: 4644864
+
+  GRID BASED BADER ANALYSIS  (Version 1.05 08/19/23)
+
+  OPEN ... CHGCAR              
+  VASP5-STYLE INPUT FILE
+  DENSITY-GRID:   48 x 168 x 576
+  CLOSE ... CHGCAR              
+  RUN TIME:    0.77 SECONDS
+
+  OPEN ... CHGCAR_sum          
+  VASP5-STYLE INPUT FILE
+  DENSITY-GRID:   48 x 168 x 576
+  CLOSE ... CHGCAR_sum          
+  RUN TIME:    0.74 SECONDS
+
+  CALCULATING BADER CHARGE DISTRIBUTION
+                 0  10  25  50  75  100
+  PERCENT DONE:  ********************** 
+
+  REFINING AUTOMATICALLY
+  ITERATION: 1
+  EDGE POINTS:       2399646
+  REASSIGNED POINTS:  106947
+
+  RUN TIME:      10.21 SECONDS
+
+  CALCULATING MINIMUM DISTANCES TO ATOMS
+                 0  10  25  50  75  100
+  PERCENT DONE:  **********************
+  RUN TIME:    0.65 SECONDS
+
+  WRITING BADER ATOMIC CHARGES TO ACF.dat
+  WRITING BADER VOLUME CHARGES TO BCF.dat
+
+  NUMBER OF BADER MAXIMA FOUND:          42923
+      SIGNIFICANT MAXIMA FOUND:             40
+                 VACUUM CHARGE:         0.0000
+           NUMBER OF ELECTRONS:      352.00000
+ 

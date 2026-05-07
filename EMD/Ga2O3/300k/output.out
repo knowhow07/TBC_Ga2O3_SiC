@@ -1,0 +1,58 @@
+Preparing 10 NEW job directories...
+Existing max job index: 0
+Creating jobs: job_01 .. job_10
+Job directory preparation done.
+Scheduling 10 NEW job directories:
+  job_01
+  job_02
+  job_03
+  job_04
+  job_05
+  job_06
+  job_07
+  job_08
+  job_09
+  job_10
+Launching 10 jobs on GPUs: 0 1
+(Ignoring external GPU usage)
+Launched job_01 on GPU 0 (PID 963838)
+GPU 0: starting job_01
+Launched job_02 on GPU 1 (PID 963839)
+GPU 1: starting job_02
+GPU 0: job_01 finished
+GPU 0: internal job PID 963838 finished.
+Launched job_03 on GPU 0 (PID 965480)
+GPU 0: starting job_03
+GPU 1: job_02 finished
+GPU 1: internal job PID 963839 finished.
+Launched job_04 on GPU 1 (PID 965503)
+GPU 1: starting job_04
+GPU 0: job_03 finished
+GPU 0: internal job PID 965480 finished.
+Launched job_05 on GPU 0 (PID 966849)
+GPU 0: starting job_05
+GPU 1: job_04 finished
+GPU 1: internal job PID 965503 finished.
+Launched job_06 on GPU 1 (PID 966879)
+GPU 1: starting job_06
+GPU 0: job_05 finished
+GPU 0: internal job PID 966849 finished.
+Launched job_07 on GPU 0 (PID 967981)
+GPU 0: starting job_07
+GPU 1: job_06 finished
+GPU 1: internal job PID 966879 finished.
+Launched job_08 on GPU 1 (PID 968254)
+GPU 1: starting job_08
+GPU 0: job_07 finished
+GPU 0: internal job PID 967981 finished.
+Launched job_09 on GPU 0 (PID 972948)
+GPU 0: starting job_09
+GPU 1: job_08 finished
+GPU 1: internal job PID 968254 finished.
+Launched job_10 on GPU 1 (PID 973122)
+GPU 1: starting job_10
+GPU 0: job_09 finished
+GPU 0: internal job PID 972948 finished.
+GPU 1: job_10 finished
+GPU 1: internal job PID 973122 finished.
+All jobs finished.

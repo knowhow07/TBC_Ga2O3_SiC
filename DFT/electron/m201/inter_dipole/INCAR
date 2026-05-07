@@ -1,0 +1,48 @@
+# ----------------------
+# Static SCF Calculation for Interface System
+# ----------------------
+# SYSTEM = Static SCF - Interface Dipole & Charge Analysis
+
+# Static run: no ionic movement
+NSW     = 0          # No ionic steps
+IBRION  = -1         # No ionic relaxation
+ISIF    = 2          # No stress/force evaluation
+ISTART  = 1          # Restart from WAVECAR
+ICHARG  = 1          # Read charge density from CHGCAR
+NELM    = 200        # Max SCF iterations
+EDIFF   = 1E-6       # Energy convergence criterion
+
+# Electronic minimization
+ALGO    = Normal     # Robust for SCF
+PREC    = Accurate   # Precision level for FFT grid
+ENCUT   = 800        # Plane-wave energy cutoff (check POTCAR recommendation)
+
+# k-point & smearing
+ISMEAR  = 0          # Gaussian smearing (default for semiconductors)
+SIGMA   = 0.05       # Smearing width in eV
+
+# van der Waals correction
+IVDW    = 12         # Grimme D3 (BJ damping)
+
+# Dipole correction (important for slab/interface + vacuum)
+# LDIPOL  = .TRUE.     # Turn on dipole correction
+# IDIPOL  = 3          # Apply in z-direction (vacuum)
+# DIPOL   = 0.5 0.5 0.5 # (Optional) center of mass estimate or leave to VASP
+
+# Charge density output
+LAECHG  = .TRUE.     # Output all-electron charge density (AECCAR0, AECCAR2)
+LVHAR = .TRUE.
+LVTOT = .TRUE.
+LCHARG  = .TRUE.     # Write CHGCAR for post-analysis
+LWAVE   = .TRUE.     # Write WAVECAR for possible reuse
+LELF = .TRUE.    # Write ELFCAR
+LORBIT = 10
+
+
+# Parallel & symmetry settings
+ISYM    = 0          # Turn off symmetry (important for asymmetric interfaces)
+LREAL   = Auto       # Real-space projection optimization
+
+NGXF   = 56
+NGYF   = 160
+NGZF   = 840

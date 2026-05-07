@@ -1,0 +1,2 @@
+2026-03-27T14:09:20-07:00	<PATH_TO_DATA>/tmux_finish_history.tsv	-	-	-	SESSION_CLOSED 100-5-fix
+2026-03-27T14:09:21-07:00	<PATH_TO_DATA>/tmux_finish_history.tsv	-	-	-	PANE_EXIT 100-5-fix:0.0 <PATH_TO_DATA>/vasp_jobs/nep_0217/nemd/100/5 rc=

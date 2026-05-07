@@ -1,0 +1,28 @@
+Preparing 4 NEW job directories...
+Existing max job index: 0
+Creating jobs: job_01 .. job_04
+Job directory preparation done.
+Scheduling 4 NEW job directories:
+  job_01
+  job_02
+  job_03
+  job_04
+Launching 4 jobs on GPUs: 0 1
+(Ignoring external GPU usage)
+Launched job_01 on GPU 0 (PID 544827)
+Launched job_02 on GPU 1 (PID 544828)
+GPU 0: starting job_01
+GPU 1: starting job_02
+GPU 1: job_02 finished
+GPU 1: internal job PID 544828 finished.
+Launched job_03 on GPU 1 (PID 787699)
+GPU 1: starting job_03
+GPU 0: job_01 finished
+GPU 0: internal job PID 544827 finished.
+Launched job_04 on GPU 0 (PID 787773)
+GPU 0: starting job_04
+GPU 1: job_03 finished
+GPU 1: internal job PID 787699 finished.
+GPU 0: job_04 finished
+GPU 0: internal job PID 787773 finished.
+All jobs finished.

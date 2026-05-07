@@ -1,0 +1,12 @@
+name: tbc-base
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - ase
+  - pyyaml
+  - tmux

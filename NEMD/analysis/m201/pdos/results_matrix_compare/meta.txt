@@ -1,0 +1,14 @@
+GROUP_ID = 2
+X_INTERFACE = 105.0
+WINDOW_W = 5.0
+DT_FS = 1.0
+DUMP_EVERY = 10
+NPERSEG = 4096
+FREQ_BINS = [(0, 5), (5, 10), (10, 15), (15, 20), (20, 25), (25, 30)]
+SELECTED_OFFDIAG = [(1, 2), (2, 3), (3, 4), (4, 5), (4, 1), (5, 4)]
+cov_vmin = -2.65667877e-14
+cov_vmax = 7.85799573e-14
+abs_cov_vmax = 7.85799573e-14
+300K: left_n=672, right_n=480, left_bounds=(100.0, 105.0), right_bounds=(105.0, 110.0)
+600K: left_n=672, right_n=480, left_bounds=(100.0, 105.0), right_bounds=(105.0, 110.0)
+900K: left_n=672, right_n=480, left_bounds=(100.0, 105.0), right_bounds=(105.0, 110.0)

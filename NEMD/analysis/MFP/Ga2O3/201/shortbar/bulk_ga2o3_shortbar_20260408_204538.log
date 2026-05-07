@@ -1,0 +1,116 @@
+[LOG] Writing to <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_20260408_204538.log
+Found 8 job folders under <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/job_*
+
+[job_01]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.681831
+  g3: 304.772824
+  g4: 300.195020
+  g5: 294.464147
+DeltaT = <Tg2> - <Tg4> = 9.486811 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 18.790 -> 27.182 (center ~ 22.941)
+
+[job_02]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.558174
+  g3: 305.030598
+  g4: 300.299028
+  g5: 294.395145
+DeltaT = <Tg2> - <Tg4> = 9.259146 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 18.790 -> 27.182 (center ~ 22.941)
+
+[job_03]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.655509
+  g3: 304.865031
+  g4: 300.089314
+  g5: 294.545614
+DeltaT = <Tg2> - <Tg4> = 9.566194 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 18.790 -> 27.182 (center ~ 22.941)
+
+[job_04]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.636257
+  g3: 304.830127
+  g4: 300.076224
+  g5: 294.293187
+DeltaT = <Tg2> - <Tg4> = 9.560033 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 18.790 -> 27.182 (center ~ 22.941)
+
+[job_05]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.553250
+  g3: 305.008219
+  g4: 300.211151
+  g5: 294.434810
+DeltaT = <Tg2> - <Tg4> = 9.342099 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 18.790 -> 27.182 (center ~ 22.941)
+
+[job_06]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.662070
+  g3: 304.692179
+  g4: 299.829838
+  g5: 294.369620
+DeltaT = <Tg2> - <Tg4> = 9.832233 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 18.790 -> 27.182 (center ~ 22.941)
+
+[job_07]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.613124
+  g3: 304.725499
+  g4: 300.009388
+  g5: 294.443151
+DeltaT = <Tg2> - <Tg4> = 9.603736 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 18.790 -> 27.182 (center ~ 22.941)
+
+[job_08]
+Steady-state group temperatures (K):
+  g1: 0.000000
+  g2: 309.600246
+  g3: 304.788748
+  g4: 300.355764
+  g5: 294.724270
+DeltaT = <Tg2> - <Tg4> = 9.244482 K
+Area = 1376.341505 Å^2
+SHC group 3 x-range (Å): 18.790 -> 27.182 (center ~ 22.941)
+
+================ Summary ================
+Valid jobs used: 8
+Mean ΔT over jobs: 9.486842 K
+Std  ΔT over jobs: 0.198619 K
+Mean area over jobs: 1376.341505 Å^2
+SHC region x-ranges:
+  job_01: 18.790 -> 27.182 Å (center ~ 22.941)
+  job_02: 18.790 -> 27.182 Å (center ~ 22.941)
+  job_03: 18.790 -> 27.182 Å (center ~ 22.941)
+  job_04: 18.790 -> 27.182 Å (center ~ 22.941)
+  job_05: 18.790 -> 27.182 Å (center ~ 22.941)
+  job_06: 18.790 -> 27.182 Å (center ~ 22.941)
+  job_07: 18.790 -> 27.182 Å (center ~ 22.941)
+  job_08: 18.790 -> 27.182 Å (center ~ 22.941)
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_avg_native.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_avg_paper.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_cumulative_native.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_cumulative_paper.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_all_runs_native.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_summary.txt
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Jarea_avg.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_avg_native.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_avg_paper.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_cumulative_native.png
+Saved: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/MFP/Ga2O3/201/shortbar/bulk_ga2o3_shortbar_Gomega_cumulative_paper.png

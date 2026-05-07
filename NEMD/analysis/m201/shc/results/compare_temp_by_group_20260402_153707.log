@@ -1,0 +1,37 @@
+[INFO] Current path   : <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc
+[INFO] Results folder : <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/results
+[INFO] Temperature paths:
+  300K -> <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/300k
+  600K -> <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/600k-fix
+  900K -> <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/900k
+
+===== Processing group 3 across temperatures =====
+[OK] g3 300K: dT=13.353412 K, area=1373.931352 Å², x=(56.623,64.786)
+[OK] g3 600K: dT=12.958292 K, area=1373.931352 Å², x=(56.623,64.786)
+[OK] g3 900K: dT=11.468010 K, area=1373.931352 Å², x=(56.623,64.786)
+
+===== Processing group 4 across temperatures =====
+[OK] g4 300K: dT=12.967663 K, area=1373.931352 Å², x=(101.861,110.392)
+[OK] g4 600K: dT=12.335321 K, area=1373.931352 Å², x=(101.861,110.392)
+[OK] g4 900K: dT=10.916342 K, area=1373.931352 Å², x=(101.861,110.392)
+
+===== Processing group 5 across temperatures =====
+[OK] g5 300K: dT=12.885641 K, area=1373.931352 Å², x=(142.229,151.640)
+[OK] g5 600K: dT=11.976281 K, area=1373.931352 Å², x=(142.229,151.640)
+[OK] g5 900K: dT=12.466673 K, area=1373.931352 Å², x=(142.229,151.640)
+
+Saved figures:
+  group_3_Jsum_vs_temperature.png
+  group_3_Glike_vs_temperature.png
+  group_3_GlikeCum_vs_temperature.png
+  group_4_Jsum_vs_temperature.png
+  group_4_Glike_vs_temperature.png
+  group_4_GlikeCum_vs_temperature.png
+  group_5_Jsum_vs_temperature.png
+  group_5_Glike_vs_temperature.png
+  group_5_GlikeCum_vs_temperature.png
+
+Saved text outputs:
+  summary_by_group_and_temperature.txt
+  group_<gid>_<temp>_spectral_data.txt
+  log: <PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/post/210-300k/20+10/shc/results/compare_temp_by_group_20260402_153707.log

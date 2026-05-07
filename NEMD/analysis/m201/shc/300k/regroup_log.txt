@@ -1,0 +1,31 @@
+Logging to: ./regroup_log.txt
+Interface center from chemistry:
+  last Si layer avg x = 104.997994 Å  (Si max x = 104.997994 Å, window=2.0 Å)
+  first O layer avg x = 106.777235 Å  (O  min x = 106.697994 Å, window=2.0 Å)
+  interface center x  = 105.887615 Å
+
+✔ Wrote regrouped PDOS model to: ./model.xyz
+
+Group counts:
+  group  0: 1572
+  group  1: 1344
+  group  2: 17328
+  group  3: 1344
+  group  4: 1272
+  group  5: 1320
+  group  6: 1260
+
+Region bounds along x (Å):
+         wallL: 0.000 -> 10.000
+        g1_hot: 10.000 -> 20.000
+      g2_gap_1: 20.000 -> 55.444
+       g3_left: 55.444 -> 65.444
+      g2_gap_2: 65.444 -> 100.888
+       g4_core: 100.888 -> 110.888
+      g2_gap_3: 110.888 -> 142.088
+      g5_right: 142.088 -> 152.088
+      g2_gap_4: 152.088 -> 183.289
+       g6_cold: 183.289 -> 193.289
+         wallR: 193.289 -> 203.289
+
+✔ Saved plot: ./group_ranges_x.png

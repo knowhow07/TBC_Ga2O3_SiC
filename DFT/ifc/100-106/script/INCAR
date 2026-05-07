@@ -1,0 +1,29 @@
+# ----------------------
+# Single-Point Energy Calculation (Fixed Structure)
+# ----------------------
+SYSTEM = Static Calculation 
+ISTART = 0         # Start from previous WAVECAR if available
+ENCUT = 520        # Same as relaxation ENCUT
+EDIFF = 1E-6
+
+IBRION = -1        # No ionic movement
+NSW = 0            # Zero ionic steps
+ISIF = 2           # No relaxation (can be any ISIF if NSW=0)
+
+# Smearing
+ISMEAR = 0
+SIGMA  = 0.05
+
+# Accuracy and parallelization
+PREC = Accurate
+LREAL = Auto
+ISYM = 0           # Recommended for interface / defect systems
+
+# Output control
+LWAVE  = .FALSE.   # No need for WAVECAR in static runs
+LCHARG = .FALSE.   # Save CHGCAR (useful for DOS, Bader, etc.)
+
+# DFT-D3 Correction
+IVDW = 12          # Keep consistent with relaxation
+
+KSPACING = 0.3     # Keep same for consistency

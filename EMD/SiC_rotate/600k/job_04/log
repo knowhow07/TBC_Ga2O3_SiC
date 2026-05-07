@@ -1,0 +1,173 @@
+
+***************************************************************
+*                 Welcome to use GPUMD                        *
+*     (Graphics Processing Units Molecular Dynamics)          *
+*                     version 4.9                             *
+*              This is the gpumd executable                   *
+***************************************************************
+
+
+---------------------------------------------------------------
+Compiling options:
+---------------------------------------------------------------
+
+DEBUG is off: Use different PRNG seeds for different runs.
+
+---------------------------------------------------------------
+GPU information:
+---------------------------------------------------------------
+
+number of GPUs = 1
+Device id:                   0
+    Device name:             Tesla V100-PCIE-32GB
+    Compute capability:      7.0
+    Amount of global memory: 31.7394 GB
+    Number of SMs:           80
+
+---------------------------------------------------------------
+Started running GPUMD.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started initializing positions and related parameters.
+---------------------------------------------------------------
+
+Number of atoms is 10240.
+Use periodic boundary conditions along x.
+Use periodic boundary conditions along y.
+Use periodic boundary conditions along z.
+Box matrix h = [a, b, c] is
+    4.9211106395e+01   -2.4605553197e+01    0.0000000000e+00
+   -5.1544210923e-15    4.2618068286e+01    0.0000000000e+00
+    0.0000000000e+00    0.0000000000e+00    5.0353232400e+01
+Inverse box matrix g = inv(h) is
+    2.0320616081e-02    1.1732113164e-02   -0.0000000000e+00
+    2.4576668148e-18    2.3464226330e-02   -0.0000000000e+00
+   -0.0000000000e+00   -0.0000000000e+00    1.9859698223e-02
+Do not specify initial velocities here.
+Have no grouping method.
+There are 5 atom types.
+    0 atoms of type 0.
+    0 atoms of type 1.
+    5120 atoms of type 2.
+    5120 atoms of type 3.
+    0 atoms of type 4.
+Initialized velocities with default T = 300 K.
+
+---------------------------------------------------------------
+Finished initializing positions and related parameters.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Started executing the commands in run.in.
+---------------------------------------------------------------
+
+Use the NEP4 potential with 5 atom types.
+    type 0 (Ga with Z = 31).
+    type 1 (O with Z = 8).
+    type 2 (Si with Z = 14).
+    type 3 (C with Z = 6).
+    type 4 (H with Z = 1).
+    radial cutoff = 9 A.
+    angular cutoff = 6 A.
+    MN_radial = 338.
+    enlarged MN_radial = 423.
+    enlarged MN_angular = 129.
+    n_max_radial = 10.
+    n_max_angular = 8.
+    basis_size_radial = 12.
+    basis_size_angular = 10.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 56-96-1.
+    number of neural network parameters = 27841.
+    number of descriptor parameters = 6050.
+    total number of parameters = 33891.
+Use NVE ensemble for this run.
+Time step for this run is 0 fs.
+Dump extended XYZ.
+    for the whole system.
+    every 1 steps.
+    into file relaxed.xyz.
+Run 1 steps.
+    1 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 0.0317325 second.
+Speed of this run = 322698 atom*step/second.
+---------------------------------------------------------------
+
+Initialized velocities with input T = 600 K.
+Use NVT ensemble for this run.
+    choose the Berendsen method.
+    initial temperature is 600 K.
+    final temperature is 600 K.
+    tau_T is 100 time_step.
+Time step for this run is 1 fs.
+Dump thermo every 100 steps.
+Dump extended XYZ.
+    every 50000 steps.
+    with velocity data.
+Run 200000 steps.
+    20000 steps completed.
+    40000 steps completed.
+    60000 steps completed.
+    80000 steps completed.
+    100000 steps completed.
+    120000 steps completed.
+    140000 steps completed.
+    160000 steps completed.
+    180000 steps completed.
+    200000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 2551.99 second.
+Speed of this run = 802511 atom*step/second.
+---------------------------------------------------------------
+
+Use NVE ensemble for this run.
+Compute HAC.
+    sample interval is 10.
+    Nc is 40000
+    output_interval is 1
+Run 2000000 steps.
+    200000 steps completed.
+    400000 steps completed.
+    600000 steps completed.
+    800000 steps completed.
+    1000000 steps completed.
+    1200000 steps completed.
+    1400000 steps completed.
+    1600000 steps completed.
+    1800000 steps completed.
+    2000000 steps completed.
+
+---------------------------------------------------------------
+Time used for this run = 25311.6 second.
+Speed of this run = 809115 atom*step/second.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Start to calculate HAC and related quantities.
+HAC and related quantities are calculated.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished executing the commands in run.in.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Time used = 27865.235281 s.
+---------------------------------------------------------------
+
+
+---------------------------------------------------------------
+Finished running GPUMD.
+---------------------------------------------------------------
+

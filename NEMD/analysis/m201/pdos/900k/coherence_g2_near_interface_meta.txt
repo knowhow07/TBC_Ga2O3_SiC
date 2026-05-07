@@ -1,0 +1,15 @@
+SNAPSHOT_XYZ = model.xyz
+CACHE_NPY    = velocity_g2.npy
+GROUP_ID     = 2
+X_INTERFACE  = 105.0
+WINDOW_W     = 5.0
+left slab    = [100.000, 105.000) Å, n=672
+right slab   = (105.000, 110.000] Å, n=480
+DT_FS        = 1.0
+DUMP_EVERY   = 10
+dt_sample_fs = 10.000
+n_frames     = 50000
+nperseg      = 4096
+noverlap     = 2048
+SIGNAL_MODE  = mean_vx_demean
+used_keys    = ['vx']

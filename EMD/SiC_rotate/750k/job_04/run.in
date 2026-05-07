@@ -1,0 +1,24 @@
+# model model.xyz
+potential   ./nep.txt
+# replicate 6 6 2
+# minimize fire 1.0e-5 1000 1
+# minimize sd 1.0e-3 10000
+
+ensemble    nve
+time_step   0
+dump_xyz    -1 0 1 relaxed.xyz
+run         1
+
+
+velocity    750
+
+ensemble    nvt_ber 750 750 100
+time_step   1     
+dump_thermo 100     
+
+dump_exyz    50000 1 
+run         200000
+
+ensemble    nve
+compute_hac 10 40000 1
+run         2000000

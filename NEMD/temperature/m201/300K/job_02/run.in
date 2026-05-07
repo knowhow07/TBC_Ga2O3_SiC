@@ -1,0 +1,35 @@
+# --- potential and initial structure ---
+potential   nep.txt          # your NEP file
+# model      model_nemd.xyz    # xyz with group indices as above
+
+velocity    300              # randomize velocities at 300 K
+
+# --- equilibration with fixed walls ---
+ensemble    nvt_ber 300 300 100
+time_step   1
+fix         0                 # freeze group 0 (both end walls)
+dump_thermo 10000
+dump_xyz -1 0 20000 nvt.xyz
+run         100000            # 100 ps equilibration
+
+# --- NEMD production: Langevin hot/cold + fixed walls ---
+# ensemble    heat_lan 300 100 10 1 7
+ensemble heat_lan 300 100 20 1 32
+#              T0   tau  dT gh gc
+#  T_hot = T0 + dT  = 310 K
+#  T_cold = T0 - dT = 290 K
+
+fix         0                 # keep walls frozen during production
+run         500000 
+
+# temperature profile + heat flux
+compute     0 1 200000 temperature
+#    id nbins sample_every type
+
+# optional spectral decomposition (if you want)
+# compute_shc  2 250 0 1000 120.0 group 0 4
+fix         0  
+dump_thermo 10000
+dump_xyz -1 0 500000 nemd.xyz
+run         4000000           # 2 ns at dt = 1 fs
+

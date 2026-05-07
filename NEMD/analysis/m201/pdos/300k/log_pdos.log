@@ -1,0 +1,27 @@
+Snapshot Lx=203.28868118
+Group 2 atoms = 13104
+Left  window [95.00,105.00) Å: n=1344
+Mid   window [100.00,110.00] Å: n=1152
+Right window (105.00,115.00] Å: n=1080
+Traceback (most recent call last):
+  File "<PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/210/300k/20+10/pdos/pdos.py", line 250, in <module>
+    main()
+    ~~~~^^
+  File "<PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/210/300k/20+10/pdos/pdos.py", line 221, in main
+    v = read_velocity_out(VELOCITY_OUT, n_atoms=idx_g.size)
+  File "<PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/210/300k/20+10/pdos/pdos.py", line 144, in read_velocity_out
+    n_frames = _sanity_check_velocity_rows(total_rows, n_atoms, fname)
+  File "<PATH_TO_DATA>/qe_jobs/nep_training/NEMD/0217/210/300k/20+10/pdos/pdos.py", line 96, in _sanity_check_velocity_rows
+    raise RuntimeError(
+    ...<9 lines>...
+    )
+RuntimeError: velocity.out: row count mismatch.
+  total velocity rows = 1512000000
+  n_atoms (dumped group size) = 13104
+  total_rows % n_atoms = 8064
+  gcd(total_rows, n_atoms) = 1008
+Likely causes:
+  - velocity.out corresponds to a different group than snapshot group 2
+  - velocity.out was overwritten by a later dump
+  - velocity.out contains non-numeric/header lines not filtered out
+

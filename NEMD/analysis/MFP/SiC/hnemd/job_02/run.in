@@ -1,0 +1,28 @@
+# =========================
+# bulk SiC HNEMD in GPUMD
+# run.in
+# =========================
+
+potential    nep.txt
+velocity     300
+
+# ---- equilibration ----
+ensemble     npt_ber 300 300 100 0 0 0 0 0 0 500 500 500 50 50 50 1000
+time_step    1
+dump_thermo  1000
+run          1000000
+
+# ---- production ----
+ensemble     nvt_nhc 300 300 100
+
+# HNEMD driving force along x
+# syntax: compute_hnemd <output_interval> <Fe_x> <Fe_y> <Fe_z>
+compute_hnemd 1000 2e-5 0 0
+
+# spectral decomposition
+# syntax commonly used in tutorial:
+# compute_shc <sample_interval> <ncorr> <direction> <output_interval> <num_omega>
+compute_shc   2 250 0 1000 200
+
+dump_thermo  1000
+run          5000000

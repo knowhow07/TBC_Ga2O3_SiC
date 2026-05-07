@@ -1,0 +1,15 @@
+[LOG] Writing to spec_thermal_20260329_075301.log
+Steady-state group temperatures (K) from compute.out:
+  g1: 298.404641
+  g2: 309.909950
+  g3: 303.241681
+  g4: 308.447566
+  g5: 306.246506
+  g6: 297.024309
+  g7: 290.154584
+
+DeltaT = <Tg2> - <Tg6> = 12.885641 K
+
+SHC group 4 x-range (Å): 101.861 -> 110.392 (center ~ 105.821)
+
+Saved: shc_Jsum.png, shc_Glike.png, shc_Glike_cum.png
