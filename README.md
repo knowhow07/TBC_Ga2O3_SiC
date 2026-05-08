@@ -1,5 +1,9 @@
 # Physics-Grounded Understanding of Thermal Boundary Conductance between Ga2O3 and SiC from a Feedforward Neural Network Potential
 
+[![DOI](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2605.05620-blue)](https://doi.org/10.48550/arXiv.2605.05620)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.05620-b31b1b.svg)](https://arxiv.org/abs/2605.05620)
+[![License: Apache 2.0 (code) & CC BY-NC 4.0 (data)](https://img.shields.io/badge/License-Apache%202.0%20%26%20CC%20BY--NC%204.0-green)](LICENSE.md)
+
 This repository contains the data, trained neural network potential, simulation inputs/outputs, and analysis scripts associated with the manuscript:
 
 **Physics-Grounded Understanding of Thermal Boundary Conductance from a Feedforward Neural Network Potential**
@@ -107,7 +111,6 @@ Most manuscript-level analyses can be inspected from existing outputs without re
 Examples:
 
 ```bash
-cd <PATH_TO_DATA>/open_access
 conda activate tbc-base
 ```
 
@@ -122,24 +125,24 @@ python plot_test_nep.py
 TBC versus length:
 
 ```bash
-cd <PATH_TO_DATA>/open_access/NEMD/length
+cd /NEMD/length
 python compare_tbc.py
 ```
 
 TBC versus temperature:
 
 ```bash
-cd <PATH_TO_DATA>/open_access/NEMD/temperature
+cd /NEMD/temperature
 python plot_temp_tbc.py
 ```
 
 Bulk thermal conductivity comparison:
 
 ```bash
-cd <PATH_TO_DATA>/open_access/EMD/Ga2O3
+cd /EMD/Ga2O3
 python nep_exp.py
 
-cd <PATH_TO_DATA>/open_access/EMD/SiC_rotate
+cd /EMD/SiC_rotate
 python nep_exp.py
 ```
 
@@ -148,10 +151,10 @@ DFT/phonon comparison examples:
 ```bash
 conda activate phoebe
 
-cd <PATH_TO_DATA>/open_access/DFT/phonon/SiC
+cd /DFT/phonon/SiC
 python compare_nep.py
 
-cd <PATH_TO_DATA>/open_access/DFT/phonon/Ga2O3
+cd /DFT/phonon/Ga2O3
 python compare_nep.py
 ```
 
@@ -194,14 +197,8 @@ Known limitations:
 - Some scripts select the newest log/result file by timestamp.
 - Exact multi-panel paper figure assembly scripts are not centralized.
 - Raw DFT/AIMD provenance for every NEP training structure is not fully self-contained; `manifest.csv` records redacted historical source paths under `<PATH_TO_DATA>/qe_jobs/...`.
-- Proprietary or uncertain VASP files and outputs require legal review before public redistribution. Quarantined files under `_REVIEW_BEFORE_PUBLIC_RELEASE/` are not release-approved.
+- VASP calculaitos require seperate institutional valid license
 
-## Recommended Public-Release Cleanup
-
-Before public upload:
-
-1. Confirm whether quarantined VASP `OUTCAR`, `vasprun.xml`, `CHGCAR*`, `AECCAR*`, `XDATCAR`, `PROCAR`, `DOSCAR`, `CHGDIFF.vasp`, and related outputs may be redistributed under the applicable institutional license.
-2. Confirm company approval for Apache-2.0 on original code/scripts and CC BY-SA 4.0 on original data, figures, and documentation.
 
 ## Citation
 
