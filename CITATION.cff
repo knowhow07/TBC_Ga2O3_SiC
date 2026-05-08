@@ -1,20 +1,80 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the associated manuscript."
 title: "Physics-Grounded Understanding of Thermal Boundary Conductance between Ga2O3 and SiC from a Feedforward Neural Network Potential"
+
 authors:
-  - family-names: "Anonymous"
-    given-names: "Author"
+  - family-names: "Liu"
+    given-names: "Nuohao"
+  - family-names: "Shen"
+    given-names: "Chen"
+  - family-names: "Cao"
+    given-names: "Yue"
+  - family-names: "Xue"
+    given-names: "Song"
+  - family-names: "Wu"
+    given-names: "Pingfan"
+  - family-names: "Lin"
+    given-names: "Zongfang"
+  - family-names: "Mortazavi"
+    given-names: "Masood"
+  - family-names: "Peng"
+    given-names: "Liang"
+  - family-names: "Szlufarska"
+    given-names: "Izabela"
+  - family-names: "Wang"
+    given-names: "Jiechen"
+
 version: "0.1.0"
-date-released: "2026-04-29"
-repository-code: "TBD"
-doi: "TBD"
-license: "Apache-2.0 for code; CC-BY-SA-4.0 for data, figures, and documentation"
+date-released: "2026-05-07"
+
+repository-code: "https://github.com/YOUR-USERNAME/YOUR-REPO"
+doi: "10.48550/arXiv.2605.05620"
+url: "https://arxiv.org/abs/2605.05620"
+
+license: "Apache-2.0"
+
 keywords:
   - thermal boundary conductance
   - neural network potential
+  - feedforward neural network potential
   - neuroevolution potential
   - Ga2O3
   - SiC
   - molecular dynamics
   - phonons
-abstract: "Reproducibility archive for a Ga-O-Si-C-H neuroevolution potential study of Ga2O3/SiC thermal boundary conductance."
+  - thermal transport
+  - interfacial heat transfer
+
+abstract: "Reproducibility archive for a Ga-O-Si-C-H feedforward neural network potential study of thermal boundary conductance at Ga2O3/SiC interfaces. The associated manuscript develops and validates a unified potential against density-functional data, bulk phonon dispersions, and anisotropic thermal-conductivity trends, then uses nonequilibrium molecular dynamics to explain length-, temperature-, and orientation-dependent thermal boundary conductance."
+
+preferred-citation:
+  type: article
+  title: "Physics-Grounded Understanding of Thermal Boundary Conductance between Ga2O3 and SiC from a Feedforward Neural Network Potential"
+  authors:
+    - family-names: "Liu"
+      given-names: "Nuohao"
+    - family-names: "Shen"
+      given-names: "Chen"
+    - family-names: "Cao"
+      given-names: "Yue"
+    - family-names: "Xue"
+      given-names: "Song"
+    - family-names: "Wu"
+      given-names: "Pingfan"
+    - family-names: "Lin"
+      given-names: "Zongfang"
+    - family-names: "Mortazavi"
+      given-names: "Masood"
+    - family-names: "Peng"
+      given-names: "Liang"
+    - family-names: "Szlufarska"
+      given-names: "Izabela"
+    - family-names: "Wang"
+      given-names: "Jiechen"
+  year: 2026
+  month: 5
+  doi: "10.48550/arXiv.2605.05620"
+  url: "https://arxiv.org/abs/2605.05620"
+  journal: "arXiv"
+  volume: "2605.05620"
+  notes: "arXiv:2605.05620 [cond-mat.mtrl-sci]"

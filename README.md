@@ -1,4 +1,4 @@
-# Physics-Grounded Understanding of Thermal Boundary Conductance from a Feedforward Neural Network Potential
+# Physics-Grounded Understanding of Thermal Boundary Conductance between Ga2O3 and SiC from a Feedforward Neural Network Potential
 
 This repository contains the data, trained neural network potential, simulation inputs/outputs, and analysis scripts associated with the manuscript:
 
@@ -6,17 +6,8 @@ This repository contains the data, trained neural network potential, simulation 
 
 The study develops a unified Ga-O-Si-C-H neuroevolution potential (NEP) for Ga2O3/SiC interfacial heat transport and uses it to analyze thermal boundary conductance (TBC) trends with respect to transport length, temperature, and interface orientation.
 
-## Public Release Status
-
-This folder is close to a reproducibility archive, but it should still be reviewed before being uploaded as a public repository.
-
-Important:
-
-- VASP-related inputs and outputs and other externally licensed files should still be reviewed against the applicable license terms before public distribution.
-- High-risk VASP-derived output files have been moved to `_REVIEW_BEFORE_PUBLIC_RELEASE/` and should not be included in a public archive unless cleared.
-- Original code and scripts are licensed under Apache-2.0.
-- Original processed data, generated figures, and documentation are licensed under CC BY-SA 4.0 unless otherwise noted.
-- See `PUBLIC_RELEASE_CHECKLIST.md` before uploading this repository.
+This repository is publicly released as the reproducibility archive for arXiv:2605.05620.
+Restricted or uncertain files have been removed or quarantined and are not part of the public release.
 
 ## Repository Layout
 
@@ -29,7 +20,7 @@ Important:
 ├── other/figure/NN/         # NEP architecture/workflow drawing scripts and images
 ├── _REVIEW_BEFORE_PUBLIC_RELEASE/
 │                            # Quarantined restricted/uncertain files; omit unless cleared
-├── TBC_preprint.pdf   # To be added
+├── Liu_etal_2026_arXiv_TBC_Ga2O3_SiC.pdf  
 ├── environment.yml          # Minimal base analysis environment
 ├── environment_phoebe.yml   # Minimal DFT/phonon analysis environment
 └── SCRIPT_ENVIRONMENTS.md   # Which environment to use for each script family
@@ -210,12 +201,19 @@ Known limitations:
 Before public upload:
 
 1. Confirm whether quarantined VASP `OUTCAR`, `vasprun.xml`, `CHGCAR*`, `AECCAR*`, `XDATCAR`, `PROCAR`, `DOSCAR`, `CHGDIFF.vasp`, and related outputs may be redistributed under the applicable institutional license.
-2. Confirm company approval for Apache-2.0 on original code/scripts and CC BY-NC 4.0 on original data, figures, and documentation.
+2. Confirm company approval for Apache-2.0 on original code/scripts and CC BY-SA 4.0 on original data, figures, and documentation.
 
 ## Citation
 
-If you use this repository, cite the associated manuscript. A draft citation metadata file is provided in `CITATION.cff`; update authors, DOI, and URL after publication.
+If you use this repository, please cite:
+
+Nuohao Liu, Chen Shen, Yue Cao, Song Xue, Pingfan Wu, Zongfang Lin, Masood Mortazavi, Liang Peng, Izabela Szlufarska, and Jiechen Wang.  
+**Physics-Grounded Understanding of Thermal Boundary Conductance between Ga2O3 and SiC from a Feedforward Neural Network Potential.**  
+arXiv:2605.05620, 2026.  
+https://doi.org/10.48550/arXiv.2605.05620
+
+Citation metadata is provided in `CITATION.cff`.
 
 ## Contact
 
-Update this section before public release with the corresponding author, lab, or issue tracker URL.
+For questions about the manuscript or repository, please contact Nuohao Liu, Jiechen Wang or open an issue in this repository.
